@@ -14,17 +14,20 @@ class MainActivity : AppCompatActivity() {
         val testTextView = findViewById<TextView>(R.id.testTextView)
         val testButton = findViewById<Button>(R.id.testButton)
         val testButton2 = findViewById<Button>(R.id.testButton2)
+        val testButton3 = findViewById<Button>(R.id.testButton3)
 
         val listener = View.OnClickListener { view ->
             testTextView.text = when (view.id) {
                 R.id.testButton -> "Pushed Test Button 1"
                 R.id.testButton2 -> "Pushed Test Button 2"
+                R.id.testButton3 -> "Pushed Test Button 3"
                 else -> "Error"
             }
         }
 
         testButton.setOnClickListener(listener)
         testButton2.setOnClickListener(listener)
+        testButton3.setOnClickListener(listener)
 
     }
 }
