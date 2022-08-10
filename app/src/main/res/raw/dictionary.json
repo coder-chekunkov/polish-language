@@ -1,0 +1,52 @@
+{
+  "1": {
+    "cz_word": "Siema",
+    "ru_word": "Привет",
+    "ru_word_wrong": "Пока"
+  },
+  "2": {
+    "cz_word": "Nazwa",
+    "ru_word": "Имя",
+    "ru_word_wrong": "Фамилия"
+  },
+  "3": {
+    "cz_word": "Nazwisko",
+    "ru_word": "Фамилия",
+    "ru_word_wrong": "Имя"
+  },
+  "4": {
+    "cz_word": "Proszę",
+    "ru_word": "Пожалуйста",
+    "ru_word_wrong": "Извините"
+  },
+  "5": {
+    "cz_word": "Przepraszam",
+    "ru_word": "Извините",
+    "ru_word_wrong": "Пожалуйста"
+  },
+  "6": {
+    "cz_word": "Lato",
+    "ru_word": "Лето",
+    "ru_word_wrong": "Весна"
+  },
+  "7": {
+    "cz_word": "Zima",
+    "ru_word": "Зима",
+    "ru_word_wrong": "Осень"
+  },
+  "8": {
+    "cz_word": "Wiosna",
+    "ru_word": "Весна",
+    "ru_word_wrong": "Осень"
+  },
+  "9": {
+    "cz_word": "Jesień",
+    "ru_word": "Осень",
+    "ru_word_wrong": "Лето"
+  },
+  "10": {
+    "cz_word": "Autobus",
+    "ru_word": "Автобус",
+    "ru_word_wrong": "Трамвай"
+  }
+}
