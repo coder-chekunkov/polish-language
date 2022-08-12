@@ -1,52 +1,102 @@
 {
   "1": {
-    "cz_word": "Siema",
+    "pl_word": "Siema",
     "ru_word": "Привет",
     "ru_word_wrong": "Пока"
   },
   "2": {
-    "cz_word": "Nazwa",
+    "pl_word": "Nazwa",
     "ru_word": "Имя",
     "ru_word_wrong": "Фамилия"
   },
   "3": {
-    "cz_word": "Nazwisko",
+    "pl_word": "Nazwisko",
     "ru_word": "Фамилия",
     "ru_word_wrong": "Имя"
   },
   "4": {
-    "cz_word": "Proszę",
+    "pl_word": "Proszę",
     "ru_word": "Пожалуйста",
     "ru_word_wrong": "Извините"
   },
   "5": {
-    "cz_word": "Przepraszam",
+    "pl_word": "Przepraszam",
     "ru_word": "Извините",
     "ru_word_wrong": "Пожалуйста"
   },
   "6": {
-    "cz_word": "Lato",
+    "pl_word": "Lato",
     "ru_word": "Лето",
     "ru_word_wrong": "Весна"
   },
   "7": {
-    "cz_word": "Zima",
+    "pl_word": "Zima",
     "ru_word": "Зима",
     "ru_word_wrong": "Осень"
   },
   "8": {
-    "cz_word": "Wiosna",
+    "pl_word": "Wiosna",
     "ru_word": "Весна",
     "ru_word_wrong": "Осень"
   },
   "9": {
-    "cz_word": "Jesień",
+    "pl_word": "Jesień",
     "ru_word": "Осень",
     "ru_word_wrong": "Лето"
   },
   "10": {
-    "cz_word": "Autobus",
+    "pl_word": "Autobus",
     "ru_word": "Автобус",
     "ru_word_wrong": "Трамвай"
+  },
+  "11": {
+    "pl_word": "Tramwajowy",
+    "ru_word": "Трамвай",
+    "ru_word_wrong": "Троллейбус"
+  },
+  "12": {
+    "pl_word": "Pod ziemią",
+    "ru_word": "Метро",
+    "ru_word_wrong": "Трамвай"
+  },
+  "13": {
+    "pl_word": "Bilet",
+    "ru_word": "Билет",
+    "ru_word_wrong": "Проезд"
+  },
+  "14": {
+    "pl_word": "Zatrzymaj się",
+    "ru_word": "Остановка",
+    "ru_word_wrong": "Станция метро"
+  },
+  "15": {
+    "pl_word": "Stacja",
+    "ru_word": "Станция метро",
+    "ru_word_wrong": "Остановка"
+  },
+  "16": {
+    "pl_word": "Wejście",
+    "ru_word": "Вход",
+    "ru_word_wrong": "Выход"
+  },
+  "17": {
+    "pl_word": "Wyjście",
+    "ru_word": "Выход",
+    "ru_word_wrong": "Вход"
+  },
+  "18": {
+    "pl_word": "Przemiana",
+    "ru_word": "Переход",
+    "ru_word_wrong": "Заезд"
+  },
+  "19": {
+    "pl_word": "Bank",
+    "ru_word": "Банк",
+    "ru_word_wrong": "Банкнота"
+  },
+  "20": {
+    "pl_word": "Kantor",
+    "ru_word": "Обменный пункт",
+    "ru_word_wrong": "Сметана"
   }
 }
