@@ -98,5 +98,55 @@
     "pl_word": "Kantor",
     "ru_word": "Обменный пункт",
     "ru_word_wrong": "Сметана"
+  },
+  "21": {
+    "pl_word": "Prowizja gotówkowa",
+    "ru_word": "Денежная комиссия",
+    "ru_word_wrong": "Оплата"
+  },
+  "22": {
+    "pl_word": "Pieniądze",
+    "ru_word": "Деньги",
+    "ru_word_wrong": "Карандаш"
+  },
+  "23": {
+    "pl_word": "Rubel",
+    "ru_word": "Рубль",
+    "ru_word_wrong": "Доллар"
+  },
+  "24": {
+    "pl_word": "Dolar",
+    "ru_word": "Доллар",
+    "ru_word_wrong": "Евро"
+  },
+  "25": {
+    "pl_word": "Euro",
+    "ru_word": "Евро",
+    "ru_word_wrong": "Доллар"
+  },
+  "26": {
+    "pl_word": "Polski złoty",
+    "ru_word": "Польский злотый",
+    "ru_word_wrong": "Чешское пиво"
+  },
+  "27": {
+    "pl_word": "Pomoc",
+    "ru_word": "Помогите",
+    "ru_word_wrong": "Прогуляться"
+  },
+  "28": {
+    "pl_word": "Policja",
+    "ru_word": "Полиция",
+    "ru_word_wrong": "Политика"
+  },
+  "29": {
+    "pl_word": "Karetka",
+    "ru_word": "Скорая помощь",
+    "ru_word_wrong": "Машина"
+  },
+  "30": {
+    "pl_word": "Ogień",
+    "ru_word": "Пожар",
+    "ru_word_wrong": "Вода"
   }
 }
