@@ -148,5 +148,105 @@
     "pl_word": "Ogień",
     "ru_word": "Пожар",
     "ru_word_wrong": "Вода"
+  },
+  "31": {
+    "pl_word": "Dom",
+    "ru_word": "Дом",
+    "ru_word_wrong": "Сарай"
+  },
+  "32": {
+    "pl_word": "Rezydencja",
+    "ru_word": "Местожительство",
+    "ru_word_wrong": "Квартира"
+  },
+  "33": {
+    "pl_word": "Wąchać",
+    "ru_word": "Нюхать",
+    "ru_word_wrong": "Чихать"
+  },
+  "34": {
+    "pl_word": "Kichać",
+    "ru_word": "Чихать",
+    "ru_word_wrong": "Кухня"
+  },
+  "35": {
+    "pl_word": "Samolot",
+    "ru_word": "Самолет",
+    "ru_word_wrong": "Птица"
+  },
+  "36": {
+    "pl_word": "Ptaki",
+    "ru_word": "Птицы",
+    "ru_word_wrong": "Друзья"
+  },
+  "37": {
+    "pl_word": "Slipy",
+    "ru_word": "Трусы",
+    "ru_word_wrong": "Колготки"
+  },
+  "38": {
+    "pl_word": "Mydło",
+    "ru_word": "Мыло",
+    "ru_word_wrong": "Плохой человек"
+  },
+  "39": {
+    "pl_word": "Оgórki",
+    "ru_word": "Огурцы",
+    "ru_word_wrong": "Окурки"
+  },
+  "40": {
+    "pl_word": "Owoc",
+    "ru_word": "Фрукты",
+    "ru_word_wrong": "Овощи"
+  },
+  "41": {
+    "pl_word": "Warzywa",
+    "ru_word": "Овощи",
+    "ru_word_wrong": "Фрукты"
+  },
+  "42": {
+    "pl_word": "Wiosłować",
+    "ru_word": "Весло",
+    "ru_word_wrong": "Повидло"
+  },
+  "43": {
+    "pl_word": "Komputer",
+    "ru_word": "Компьютер",
+    "ru_word_wrong": "Книга"
+  },
+  "44": {
+    "pl_word": "Książka",
+    "ru_word": "Книга",
+    "ru_word_wrong": "Регистрация"
+  },
+  "45": {
+    "pl_word": "Gryka",
+    "ru_word": "Гречка",
+    "ru_word_wrong": "Гриб"
+  },
+  "46": {
+    "pl_word": "Grzyb",
+    "ru_word": "Гриб",
+    "ru_word_wrong": "Болезнь"
+  },
+  "47": {
+    "pl_word": "Uwaga",
+    "ru_word": "Внимание",
+    "ru_word_wrong": "Уважение"
+  },
+  "48": {
+    "pl_word": "Szacunek",
+    "ru_word": "Уважение",
+    "ru_word_wrong": "Победа"
+  },
+  "49": {
+    "pl_word": "Piwnica",
+    "ru_word": "Подвал",
+    "ru_word_wrong": "Окоп"
+  },
+  "50": {
+    "pl_word": "Zniżka",
+    "ru_word": "Скидка",
+    "ru_word_wrong": "Книга"
   }
 }
