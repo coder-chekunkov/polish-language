@@ -248,5 +248,155 @@
     "pl_word": "Zniżka",
     "ru_word": "Скидка",
     "ru_word_wrong": "Книга"
+  },
+  "51": {
+    "pl_word": "Stół",
+    "ru_word": "Стол",
+    "ru_word_wrong": "Стул"
+  },
+  "52": {
+    "pl_word": "Krzesło",
+    "ru_word": "Стул",
+    "ru_word_wrong": "Кресло"
+  },
+  "53": {
+    "pl_word": "Człowiek",
+    "ru_word": "Человек",
+    "ru_word_wrong": "Муж"
+  },
+  "54": {
+    "pl_word": "Samiec",
+    "ru_word": "Мужчина",
+    "ru_word_wrong": "Муж"
+  },
+  "55": {
+    "pl_word": "Mąż",
+    "ru_word": "Муж",
+    "ru_word_wrong": "Мужчина"
+  },
+  "56": {
+    "pl_word": "Kobieta",
+    "ru_word": "Женщина",
+    "ru_word_wrong": "Жена"
+  },
+  "57": {
+    "pl_word": "Żona",
+    "ru_word": "Жена",
+    "ru_word_wrong": "Женщина"
+  },
+  "58": {
+    "pl_word": "Dziecko",
+    "ru_word": "Ребенок",
+    "ru_word_wrong": "Девочка"
+  },
+  "59": {
+    "pl_word": "Chłopak",
+    "ru_word": "Мальчик",
+    "ru_word_wrong": "Девочка"
+  },
+  "60": {
+    "pl_word": "Dziewczyna",
+    "ru_word": "Девочка",
+    "ru_word_wrong": "Мальчик"
+  },
+  "61": {
+    "pl_word": "Przyjaciel",
+    "ru_word": "Друг",
+    "ru_word_wrong": "Враг"
+  },
+  "62": {
+    "pl_word": "Wróg",
+    "ru_word": "Враг",
+    "ru_word_wrong": "Друг"
+  },
+  "63": {
+    "pl_word": "Gość",
+    "ru_word": "Гость",
+    "ru_word_wrong": "Гостиная"
+  },
+  "64": {
+    "pl_word": "Salon",
+    "ru_word": "Гостиная",
+    "ru_word_wrong": "Гость"
+  },
+  "65": {
+    "pl_word": "Rodzice",
+    "ru_word": "Родители",
+    "ru_word_wrong": "Родственник"
+  },
+  "66": {
+    "pl_word": "Rodzina",
+    "ru_word": "Семья",
+    "ru_word_wrong": "Родина"
+  },
+  "67": {
+    "pl_word": "Ojczyzna",
+    "ru_word": "Родина",
+    "ru_word_wrong": "Семья"
+  },
+  "68": {
+    "pl_word": "Ojciec",
+    "ru_word": "Отец",
+    "ru_word_wrong": "Мать"
+  },
+  "69": {
+    "pl_word": "Matka",
+    "ru_word": "Мать",
+    "ru_word_wrong": "Отец"
+  },
+  "70": {
+    "pl_word": "Syn",
+    "ru_word": "Сын",
+    "ru_word_wrong": "Дочь"
+  },
+  "71": {
+    "pl_word": "Córka",
+    "ru_word": "Дочь",
+    "ru_word_wrong": "Сын"
+  },
+  "72": {
+    "pl_word": "Dziadek",
+    "ru_word": "Дедушка",
+    "ru_word_wrong": "Бабушка"
+  },
+  "73": {
+    "pl_word": "Babcia",
+    "ru_word": "Бабушка",
+    "ru_word_wrong": "Дедушка"
+  },
+  "74": {
+    "pl_word": "Teść",
+    "ru_word": "Тесть (свекор)",
+    "ru_word_wrong": "Теща (свекровь)"
+  },
+  "75": {
+    "pl_word": "Teściowa",
+    "ru_word": "Теща (свекровь)",
+    "ru_word_wrong": "Тесть (свекор)"
+  },
+  "76": {
+    "pl_word": "Wujek",
+    "ru_word": "Дядя",
+    "ru_word_wrong": "Тетя"
+  },
+  "77": {
+    "pl_word": "Ciotka",
+    "ru_word": "Тетя",
+    "ru_word_wrong": "Дядя"
+  },
+  "78": {
+    "pl_word": "Brat",
+    "ru_word": "Брат",
+    "ru_word_wrong": "Сестра"
+  },
+  "79": {
+    "pl_word": "Siostra",
+    "ru_word": "Сестра",
+    "ru_word_wrong": "Брат"
+  },
+  "80": {
+    "pl_word": "Kuzyn",
+    "ru_word": "Двоюродный брат",
+    "ru_word_wrong": "Двоюродная сестра"
   }
 }

@@ -4,12 +4,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import com.example.polish_language.gameWorker.addWordOnScreen
 import com.example.polish_language.gameWorker.*
 
 
 class MainActivity : AppCompatActivity() {
+
+    // Кнопки навигации по приложению:
+    private lateinit var buttonStatistic: ImageButton
+    private lateinit var buttonSettings: ImageButton
 
     private lateinit var polandWord: TextView
     private lateinit var ruWord: TextView
@@ -25,7 +30,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         rootStringJSON = readText(this) // Запись словаря в переменную
-        val listener = createListener() // Реализация обработки нажатий на кнопки
+
+        buttonStatistic = findViewById(R.id.buttonStatistic) // Кнопка "Статистика"
+        buttonStatistic.setOnClickListener(createClickNavigationButtons())
+        buttonSettings = findViewById(R.id.buttonSettings) // Кнопка "Настройки"
+        buttonSettings.setOnClickListener(createClickNavigationButtons())
 
         polandWord = findViewById(R.id.plWord)
         ruWord = findViewById(R.id.ruWord)
@@ -34,9 +43,9 @@ class MainActivity : AppCompatActivity() {
         buttonCorrect = findViewById(R.id.buttonCorrectly)
         buttonWrong = findViewById(R.id.buttonWrong)
 
-        buttonNewWord.setOnClickListener(listener)
-        buttonCorrect.setOnClickListener(listener)
-        buttonWrong.setOnClickListener(listener)
+        buttonNewWord.setOnClickListener(createListener())
+        buttonCorrect.setOnClickListener(createListener())
+        buttonWrong.setOnClickListener(createListener())
     }
 
     // Отработка нажатий на кнопки:
@@ -53,4 +62,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+    // Обработка нажатий на кнопки навигации:
+    private fun createClickNavigationButtons(): View.OnClickListener =
+        View.OnClickListener { view ->
+            when (view) {
+                buttonStatistic -> println("---> Statistic <---")
+                buttonSettings -> println("---> Settings <---")
+            }
+        }
 }
