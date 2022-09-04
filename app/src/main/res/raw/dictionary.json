@@ -398,5 +398,155 @@
     "pl_word": "Kuzyn",
     "ru_word": "Двоюродный брат",
     "ru_word_wrong": "Двоюродная сестра"
+  },
+  "81": {
+    "pl_word": "Sestřenice",
+    "ru_word": "Двоюродная сестра",
+    "ru_word_wrong": "Двоюродный брат"
+  },
+  "82": {
+    "pl_word": "Práce",
+    "ru_word": "Работа",
+    "ru_word_wrong": "Практика"
+  },
+  "83": {
+    "pl_word": "Praxe",
+    "ru_word": "Практика",
+    "ru_word_wrong": "Работа"
+  },
+  "84": {
+    "pl_word": "Učitel",
+    "ru_word": "Учитель",
+    "ru_word_wrong": "Водитель"
+  },
+  "85": {
+    "pl_word": "Řidič",
+    "ru_word": "Водитель",
+    "ru_word_wrong": "Учитель"
+  },
+  "86": {
+    "pl_word": "Pracovník",
+    "ru_word": "Рабочий",
+    "ru_word_wrong": "Справочник"
+  },
+  "87": {
+    "pl_word": "Adresář",
+    "ru_word": "Справочник",
+    "ru_word_wrong": "Рабочий"
+  },
+  "88": {
+    "pl_word": "Inženýr",
+    "ru_word": "Инженер",
+    "ru_word_wrong": "Студент"
+  },
+  "89": {
+    "pl_word": "Student",
+    "ru_word": "Студент",
+    "ru_word_wrong": "Инженер"
+  },
+  "90": {
+    "pl_word": "Lékař",
+    "ru_word": "Врач",
+    "ru_word_wrong": "Медсестра"
+  },
+  "91": {
+    "pl_word": "Zdravotní sestra",
+    "ru_word": "Медсестра",
+    "ru_word_wrong": "Врач"
+  },
+  "92": {
+    "pl_word": "Prodavač",
+    "ru_word": "Продавец",
+    "ru_word_wrong": "Журналист"
+  },
+  "93": {
+    "pl_word": "Novinář",
+    "ru_word": "Журналист",
+    "ru_word_wrong": "Продавец"
+  },
+  "94": {
+    "pl_word": "Účetní",
+    "ru_word": "Бухгалтер",
+    "ru_word_wrong": "Библиотекарь"
+  },
+  "95": {
+    "pl_word": "Malíř",
+    "ru_word": "Художник",
+    "ru_word_wrong": "Маляр"
+  },
+  "96": {
+    "pl_word": "Země",
+    "ru_word": "Страна",
+    "ru_word_wrong": "Земля"
+  },
+  "97": {
+    "pl_word": "Krajan",
+    "ru_word": "Земля",
+    "ru_word_wrong": "Страна"
+  },
+  "98": {
+    "pl_word": "Rusko",
+    "ru_word": "Россия",
+    "ru_word_wrong": "Румыния"
+  },
+  "99": {
+    "pl_word": "Rumunsko",
+    "ru_word": "Румыния",
+    "ru_word_wrong": "Россия"
+  },
+  "100": {
+    "pl_word": "Чехия",
+    "ru_word": "Českо",
+    "ru_word_wrong": "Slovensko"
+  },
+  "101": {
+    "pl_word": "Zvíře",
+    "ru_word": "Животное",
+    "ru_word_wrong": "Зверь"
+  },
+  "102": {
+    "pl_word": "Bestie",
+    "ru_word": "Зверь",
+    "ru_word_wrong": "Животное"
+  },
+  "103": {
+    "pl_word": "Kočka",
+    "ru_word": "Кошка",
+    "ru_word_wrong": "Кружка"
+  },
+  "104": {
+    "pl_word": "Džbánek",
+    "ru_word": "Кружка",
+    "ru_word_wrong": "Кошка"
+  },
+  "105": {
+    "pl_word": "Pes",
+    "ru_word": "Собака",
+    "ru_word_wrong": "Перо"
+  },
+  "106": {
+    "pl_word": "Město",
+    "ru_word": "Город",
+    "ru_word_wrong": "Место"
+  },
+  "107": {
+    "pl_word": "Místo",
+    "ru_word": "Место",
+    "ru_word_wrong": "Город"
+  },
+  "108": {
+    "pl_word": "Škola",
+    "ru_word": "Школа",
+    "ru_word_wrong": "Стадион"
+  },
+  "109": {
+    "pl_word": "Divadlo",
+    "ru_word": "Театр",
+    "ru_word_wrong": "Диван"
+  },
+  "110": {
+    "pl_word": "Pohovka",
+    "ru_word": "Диван",
+    "ru_word_wrong": "Театр"
   }
 }
