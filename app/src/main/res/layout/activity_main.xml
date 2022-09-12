@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#eaeaea"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -44,139 +45,142 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <TextView
-        android:id="@+id/plWord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <RelativeLayout
+        android:id="@+id/my_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@id/toolbar"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:text="plWord = "
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        tools:ignore="HardcodedText,SpUsage" />
+        android:layout_marginRight="20dp"
+        android:background="#eaeaea">
 
-    <TextView
-        android:id="@+id/ruWord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/plWord"
-        android:layout_centerHorizontal="true"
-        android:text="ruWord = "
-        android:textSize="15dp"
-        tools:ignore="HardcodedText,SpUsage" />
-
-
-    <Button
-        android:id="@+id/getNewWord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ruWord"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        android:text="new word"
-        tools:ignore="HardcodedText" />
-
-    <LinearLayout
-        android:id="@+id/test"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/getNewWord"
-        android:layout_marginTop="5dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonWrong"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:id="@+id/layout_static"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:background="#eaeaea">
+
+            <TextView
+                android:id="@+id/text_number_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Решенные вопросы"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+            <TextView
+                android:id="@+id/text_decided_questions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0/100"
+                android:textColor="#767676"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_decided_questions"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_below="@id/text_number_1"
+                android:layout_marginTop="5dp"
+                android:progressDrawable="@drawable/custom_progress_bar_decided_questions"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/text_number_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progressBar_decided_questions"
+                android:layout_marginTop="7dp"
+                android:text="Попыток на сегодня"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/text_last_questions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progressBar_decided_questions"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"
+                android:text="0/100"
+                android:textColor="#767676"
+                android:textSize="16dp"
+                tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_last_questions"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:layout_below="@id/text_number_2"
+                android:layout_marginTop="5dp"
+                android:progressDrawable="@drawable/custom_progress_bar_last_questions"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_up"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/layout_static"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#a1a1a1" />
+
+        <View
+            android:id="@+id/view_down"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_above="@+id/buttonStart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="#a1a1a1" />
+
+        <ImageButton
+            android:id="@+id/buttonStart"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="22dp"
+            android:src="@drawable/icon_button_start"
+            tools:ignore="ContentDescription,MissingPrefix,VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/buttonInformation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/buttonStart"
             android:layout_marginLeft="50dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toEndOf="@+id/buttonStart"
+            android:layout_toRightOf="@+id/buttonStart"
+            android:src="@drawable/icon_button_information"
+            tools:ignore="ContentDescription,MissingPrefix,RtlHardcoded,VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/buttonShop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/buttonStart"
             android:layout_marginRight="50dp"
-            android:layout_weight="1"
-            android:text="no"
-            tools:ignore="ButtonStyle,HardcodedText" />
+            android:layout_marginBottom="16dp"
+            android:layout_toLeftOf="@+id/buttonStart"
+            android:src="@drawable/icon_button_shop"
+            tools:ignore="ContentDescription,MissingPrefix,RtlHardcoded" />
 
-        <Button
-            android:id="@+id/buttonCorrectly"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_weight="1"
-            android:text="Yes"
-            tools:ignore="ButtonStyle,HardcodedText" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/firstButtonsTest"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/test"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginRight="25dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonStatisticTab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:text="Statistic"
-            tools:ignore="ButtonStyle,HardcodedText" />
-
-        <Button
-            android:id="@+id/buttonSettingsTab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:text="Settings"
-            tools:ignore="ButtonStyle,HardcodedText" />
-
-        <Button
-            android:id="@+id/buttonShopTab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:text="Shop"
-            tools:ignore="ButtonStyle,HardcodedText" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/secondButtonsTest"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/firstButtonsTest"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonInformationTab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:text="Information"
-            tools:ignore="ButtonStyle,HardcodedText" />
-
-        <Button
-            android:id="@+id/buttonGameOverTab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_weight="1"
-            android:text="Game Over"
-            tools:ignore="ButtonStyle,HardcodedText" />
-
-    </LinearLayout>
-
+    </RelativeLayout>
 </RelativeLayout>

@@ -23,7 +23,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         app:cardBackgroundColor="#B6B7A4"
         app:cardCornerRadius="15dp">
@@ -91,7 +90,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_marginTop="5dp"
                     android:orientation="horizontal"
                     ads:ignore="DisableBaselineAlignment,ObsoleteLayoutParam">
@@ -100,28 +98,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:orientation="vertical"
                         android:paddingLeft="25dp"
                         ads:ignore="RtlHardcoded,RtlSymmetry">
-
-                        <ImageView
-                            android:id="@+id/button_settings_call"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:elevation="5dp"
-                            android:src="@drawable/icon_button_send"
-                            ads:ignore="ContentDescription,NestedWeights,UnusedAttribute" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingLeft="4dp"
-                        android:paddingRight="4dp">
 
                         <ImageView
                             android:id="@+id/button_settings_review"
@@ -138,8 +117,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingRight="25dp"
-                        ads:ignore="RtlHardcoded,RtlSymmetry">
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp">
 
                         <ImageView
                             android:id="@+id/button_settings_restart"
@@ -148,6 +127,24 @@
                             android:layout_weight="1"
                             android:src="@drawable/icon_button_restart"
                             ads:ignore="ContentDescription,NestedWeights" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingRight="25dp"
+                        ads:ignore="RtlHardcoded,RtlSymmetry">
+
+                        <ImageView
+                            android:id="@+id/button_get_data"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:elevation="5dp"
+                            android:src="@drawable/icon_button_get_data"
+                            ads:ignore="ContentDescription,NestedWeights,UnusedAttribute" />
 
                     </LinearLayout>
                 </LinearLayout>

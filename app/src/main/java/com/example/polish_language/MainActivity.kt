@@ -3,10 +3,7 @@ package com.example.polish_language
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.ImageButton
-import android.widget.TextView
-import com.example.polish_language.gameWorker.addWordOnScreen
 import com.example.polish_language.gameWorker.*
 import com.example.polish_language.tabsWorker.*
 
@@ -16,18 +13,9 @@ class MainActivity : AppCompatActivity() {
     // Кнопки навигации по приложению:
     private lateinit var buttonStatistic: ImageButton
     private lateinit var buttonSettings: ImageButton
-
-    //TODO: тестововые кнопки. Избавиться после создания игрового окна:
-    private lateinit var polandWord: TextView
-    private lateinit var ruWord: TextView
-    private lateinit var buttonNewWord: Button
-    private lateinit var buttonCorrect: Button
-    private lateinit var buttonWrong: Button
-    private lateinit var btStatistic: Button
-    private lateinit var btSettings: Button
-    private lateinit var btShop: Button
-    private lateinit var btInfo: Button
-    private lateinit var btGameOver: Button
+    private lateinit var buttonShop: ImageButton
+    private lateinit var buttonInformation: ImageButton
+    private lateinit var buttonStart: ImageButton
 
     private lateinit var rootStringJSON: String // Переменная, хранящяя весь словарь (dictionary.json)
 
@@ -37,33 +25,17 @@ class MainActivity : AppCompatActivity() {
 
         rootStringJSON = readText(this) // Запись словаря в переменную
 
+        // Кнопки навигации по приложению:
         buttonStatistic = findViewById(R.id.buttonStatistic) // Кнопка "Статистика"
         buttonStatistic.setOnClickListener(createClickNavigationButtons())
         buttonSettings = findViewById(R.id.buttonSettings) // Кнопка "Настройки"
         buttonSettings.setOnClickListener(createClickNavigationButtons())
-
-        polandWord = findViewById(R.id.plWord)
-        ruWord = findViewById(R.id.ruWord)
-        buttonNewWord = findViewById(R.id.getNewWord)
-        buttonCorrect = findViewById(R.id.buttonCorrectly)
-        buttonWrong = findViewById(R.id.buttonWrong)
-        buttonNewWord.setOnClickListener(createListener())
-        buttonCorrect.setOnClickListener(createListener())
-        buttonWrong.setOnClickListener(createListener())
-
-
-
-        btStatistic = findViewById(R.id.buttonStatisticTab)
-        btStatistic.setOnClickListener(createClickTestTabsListener())
-        btSettings = findViewById(R.id.buttonSettingsTab)
-        btSettings.setOnClickListener(createClickTestTabsListener())
-        btShop = findViewById(R.id.buttonShopTab)
-        btShop.setOnClickListener(createClickTestTabsListener())
-        btInfo = findViewById(R.id.buttonInformationTab)
-        btInfo.setOnClickListener(createClickTestTabsListener())
-        btGameOver = findViewById(R.id.buttonGameOverTab)
-        btGameOver.setOnClickListener(createClickTestTabsListener())
-
+        buttonShop = findViewById(R.id.buttonShop) // Кнопка "Магазин"
+        buttonShop.setOnClickListener(createClickNavigationButtons())
+        buttonInformation = findViewById(R.id.buttonInformation) // Кнопка "Информация"
+        buttonInformation.setOnClickListener(createClickNavigationButtons())
+        buttonStart = findViewById(R.id.buttonStart) // Кнопка "Начать игру"
+        buttonStart.setOnClickListener(createClickNavigationButtons())
 
         initDialogInformation(this)
         initDialogSettings(this)
@@ -72,38 +44,14 @@ class MainActivity : AppCompatActivity() {
         initDialogGameOver(this)
     }
 
-    // Отработка нажатий на кнопки:
-    private fun createListener(): View.OnClickListener = View.OnClickListener { view ->
-        when (view) {
-            buttonNewWord -> addWordOnScreen(rootStringJSON, polandWord, ruWord)
-            buttonCorrect -> {
-                checkIsCorrectAns(true)
-                addWordOnScreen(rootStringJSON, polandWord, ruWord)
-            }
-            buttonWrong -> {
-                checkIsCorrectAns(false)
-                addWordOnScreen(rootStringJSON, polandWord, ruWord)
-            }
-        }
-    }
-
     // Обработка нажатий на кнопки навигации:
     private fun createClickNavigationButtons(): View.OnClickListener =
         View.OnClickListener { view ->
             when (view) {
                 buttonStatistic -> showStatistic()
                 buttonSettings -> showSettings()
+                buttonShop -> showShop()
+                buttonInformation -> showInformation()
             }
         }
-
-    // Обработка нажатий на тестовые кнопки:
-    private fun createClickTestTabsListener(): View.OnClickListener = View.OnClickListener { view ->
-        when (view) {
-            btStatistic -> showStatistic()
-            btSettings -> showSettings()
-            btShop -> showShop()
-            btInfo -> showInformation()
-            btGameOver -> showGameOver()
-        }
-    }
 }

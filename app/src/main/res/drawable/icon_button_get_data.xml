@@ -4,7 +4,7 @@
         android:gravity="fill" />
     <item
         android:bottom="20dp"
-        android:drawable="@drawable/bacground_icon_button_call"
+        android:drawable="@drawable/background_icon_button_get_data"
         android:gravity="center"
         android:left="20dp"
         android:right="20dp"
