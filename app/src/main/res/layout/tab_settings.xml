@@ -68,7 +68,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
-                    android:text="Ты в настройках! Здесь ты сможешь обнулить результат правильно выполненых вопросов, запросить новые задания, связаться с нами или оставить отзыв. "
+                    android:text="Ты в настройках! Здесь ты сможешь обнулить результат правильно выполненых вопросов, запросить новые задания или оставить отзыв. "
                     android:textAlignment="center"
                     android:textColor="#3E423A"
                     android:textSize="18dp"
@@ -109,7 +109,6 @@
                             android:layout_weight="1"
                             android:src="@drawable/icon_button_review"
                             ads:ignore="ContentDescription,InefficientWeight,NestedWeights" />
-
 
                     </LinearLayout>
 

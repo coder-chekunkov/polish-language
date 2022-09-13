@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import com.example.polish_language.gameWorker.*
+import com.example.polish_language.staticActions.startAnimation
 import com.example.polish_language.tabsWorker.*
 
 
@@ -28,14 +29,21 @@ class MainActivity : AppCompatActivity() {
         // Кнопки навигации по приложению:
         buttonStatistic = findViewById(R.id.buttonStatistic) // Кнопка "Статистика"
         buttonStatistic.setOnClickListener(createClickNavigationButtons())
+
         buttonSettings = findViewById(R.id.buttonSettings) // Кнопка "Настройки"
         buttonSettings.setOnClickListener(createClickNavigationButtons())
+
         buttonShop = findViewById(R.id.buttonShop) // Кнопка "Магазин"
         buttonShop.setOnClickListener(createClickNavigationButtons())
+        buttonShop.startAnimation()
+
         buttonInformation = findViewById(R.id.buttonInformation) // Кнопка "Информация"
         buttonInformation.setOnClickListener(createClickNavigationButtons())
+        buttonInformation.startAnimation()
+
         buttonStart = findViewById(R.id.buttonStart) // Кнопка "Начать игру"
         buttonStart.setOnClickListener(createClickNavigationButtons())
+        buttonStart.startAnimation()
 
         initDialogInformation(this)
         initDialogSettings(this)
@@ -52,6 +60,7 @@ class MainActivity : AppCompatActivity() {
                 buttonSettings -> showSettings()
                 buttonShop -> showShop()
                 buttonInformation -> showInformation()
+                buttonStart -> showGameOver()
             }
         }
 }

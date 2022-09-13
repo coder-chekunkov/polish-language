@@ -46,7 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:text="Hej"
+                    android:text="Informacja"
                     android:textAlignment="center"
                     android:textColor="#383838"
                     android:textSize="25dp"
