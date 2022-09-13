@@ -548,5 +548,105 @@
     "pl_word": "Pohovka",
     "ru_word": "Диван",
     "ru_word_wrong": "Театр"
+  },
+  "111": {
+    "pl_word": "Na zewnątrz",
+    "ru_word": "Улица",
+    "ru_word_wrong": "Каюта"
+  },
+  "112": {
+    "pl_word": "Kwadrat",
+    "ru_word": "Площадь",
+    "ru_word_wrong": "Квадрат"
+  },
+  "113": {
+    "pl_word": "Stacja kolejowa",
+    "ru_word": "Вокзал",
+    "ru_word_wrong": "Площадь"
+  },
+  "114": {
+    "pl_word": "Szpital",
+    "ru_word": "Больница",
+    "ru_word_wrong": "Прачечная"
+  },
+  "115": {
+    "pl_word": "Pranie",
+    "ru_word": "Прачечная",
+    "ru_word_wrong": "Больница"
+  },
+  "116": {
+    "pl_word": "Wynik",
+    "ru_word": "Магазин",
+    "ru_word_wrong": "Кладбище"
+  },
+  "117": {
+    "pl_word": "Cmentarz",
+    "ru_word": "Кладбище",
+    "ru_word_wrong": "Магазин"
+  },
+  "118": {
+    "pl_word": "Mieszkanie",
+    "ru_word": "Квартира",
+    "ru_word_wrong": "Существование"
+  },
+  "119": {
+    "pl_word": "Istnienie",
+    "ru_word": "Существование",
+    "ru_word_wrong": "Квартира"
+  },
+  "120": {
+    "pl_word": "Kuchnia",
+    "ru_word": "Кухня",
+    "ru_word_wrong": "Балкон"
+  },
+  "121": {
+    "pl_word": "Balkon",
+    "ru_word": "Балкон",
+    "ru_word_wrong": "Ванная"
+  },
+  "122": {
+    "pl_word": "Łazienka",
+    "ru_word": "Ванная",
+    "ru_word_wrong": "Кухня"
+  },
+  "123": {
+    "pl_word": "Kabina prysznicowa",
+    "ru_word": "Душ",
+    "ru_word_wrong": "Спальня"
+  },
+  "124": {
+    "pl_word": "Sypialnia",
+    "ru_word": "Спальня",
+    "ru_word_wrong": "Туалет"
+  },
+  "125": {
+    "pl_word": "Toaleta",
+    "ru_word": "Туалет",
+    "ru_word_wrong": "Спальня"
+  },
+  "126": {
+    "pl_word": "Piętro",
+    "ru_word": "Пол",
+    "ru_word_wrong": "Потолок"
+  },
+  "127": {
+    "pl_word": "Sufit",
+    "ru_word": "Потолок",
+    "ru_word_wrong": "Пол"
+  },
+  "128": {
+    "pl_word": "Piętro",
+    "ru_word": "Этаж",
+    "ru_word_wrong": "Лифт"
+  },
+  "129": {
+    "pl_word": "Winda",
+    "ru_word": "Лифт",
+    "ru_word_wrong": "Этаж"
+  },
+  "130": {
+    "pl_word": "Hala",
+    "ru_word": "Зал",
+    "ru_word_wrong": "Коридор"
   }
 }
