@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view_game_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/is_my_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+                card_view:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="Перевод верный?"
+                    android:textAlignment="center"
+                    android:textColor="#302b2b"
+                    android:textSize="23dp"
+                    android:textStyle="bold"
+                    card_view:ignore="HardcodedText,SpUsage" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/smile_one"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        app:srcCompat="@drawable/wrong_smile"
+                        card_view:ignore="ContentDescription,NestedWeights" />
+
+                    <ImageButton
+                        android:id="@+id/image_view_card_view_game_play"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/color_list_button_card_view_image"
+                        android:src="@drawable/icon_pic_circle"
+                        card_view:ignore="ContentDescription,ObsoleteLayoutParam,VectorDrawableCompat" />
+
+                    <ImageButton
+                        android:id="@+id/smile_two"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        app:srcCompat="@drawable/good_smile"
+                        card_view:ignore="ContentDescription,RtlHardcoded" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_game_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center_horizontal"
+                    android:text="Слово №1 "
+                    android:textAlignment="center"
+                    android:textColor="#302b2b"
+                    android:textSize="25dp"
+                    card_view:ignore="HardcodedText,SpUsage" />
+
+                <View
+                    android:id="@+id/card_view_game_one"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/color_list_card_view_view" />
+
+                <TextView
+                    android:id="@+id/text_game_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="3dp"
+                    android:gravity="center_horizontal"
+                    android:text="Слово №2 "
+                    android:textAlignment="center"
+                    android:textColor="#302b2b"
+                    android:textSize="25dp"
+                    card_view:ignore="HardcodedText,SpUsage" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_answer_no"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/color_list_button_answer_no"
+                        android:padding="9dp"
+                        android:src="@drawable/background_icon_button_play_no"
+                        card_view:ignore="ContentDescription,NestedWeights,VectorDrawableCompat" />
+
+                    <ImageButton
+                        android:id="@+id/button_answer_yes"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/color_list_button_answer_yes"
+                        android:padding="9dp"
+                        android:src="@drawable/background_icon_button_game_yes"
+                        card_view:ignore="ContentDescription,VectorDrawableCompat" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
