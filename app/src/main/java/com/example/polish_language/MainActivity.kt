@@ -1,15 +1,15 @@
 package com.example.polish_language
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageButton
-import android.widget.LinearLayout
-import android.widget.ViewFlipper
+import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 import com.example.polish_language.cardWorker.CardChanger
+import com.example.polish_language.cardWorker.createNewGame
 import com.example.polish_language.cardWorker.initCardDescriptionObjects
 import com.example.polish_language.cardWorker.initCardGameObjects
 import com.example.polish_language.gameWorker.*
+import com.example.polish_language.staticActions.initToast
 import com.example.polish_language.staticActions.startAnimationButton
 import com.example.polish_language.tabsWorker.*
 
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         initObjects() // Инициализация всех объектов на данной активности
         initDialogs() // Инициализация всех окон
         initCardDescriptionObjects(lDescription)
-        initCardGameObjects(lGame)
+        initCardGameObjects(lGame, rootStringJSON)
 
         val viewFlipper = findViewById<ViewFlipper>(R.id.vf) // Смена карт
         cardChanger = CardChanger(viewFlipper, buttonStart)
@@ -51,8 +51,8 @@ class MainActivity : AppCompatActivity() {
                 buttonSettings -> showSettings()
                 buttonShop -> showShop()
                 buttonInformation -> showInformation()
-                buttonStart -> cardChanger.startChanger()
-                lDescription -> cardChanger.startChanger()
+                buttonStart -> firstStartGame()
+                lDescription -> firstStartGame()
             }
         }
 
@@ -90,5 +90,12 @@ class MainActivity : AppCompatActivity() {
         initDialogStatistic(this) // Окно "Статистика"
         initDialogShop(this) // Окно "Магазин"
         initDialogGameOver(this) // Окно "Конец Игры"
+        initToast(this) // Инициализация "Пояснения"
+    }
+
+    // Запуск игры после смены карт:
+    private fun firstStartGame() {
+        createNewGame()
+        cardChanger.startChanger()
     }
 }

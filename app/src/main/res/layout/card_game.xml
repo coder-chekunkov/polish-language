@@ -55,7 +55,7 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <ImageButton
+                    <ImageView
                         android:id="@+id/smile_one"
                         android:layout_width="65dp"
                         android:layout_height="65dp"
@@ -81,7 +81,7 @@
                         android:src="@drawable/icon_pic_circle"
                         card_view:ignore="ContentDescription,ObsoleteLayoutParam,VectorDrawableCompat" />
 
-                    <ImageButton
+                    <ImageView
                         android:id="@+id/smile_two"
                         android:layout_width="65dp"
                         android:layout_height="65dp"

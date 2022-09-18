@@ -8,9 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Toolbar-->
+    <!-- Toolbar -->
     <color name="colorOfToolbar">#B54C4C</color>
     <color name="colorOfBehindToolbar">#E48B8B</color>
+    <!-- -->
+
+    <!-- Toast Explanation -->
+    <color name="goodAnswer">#66BB6A</color>
+    <color name="wrongAnswer">#E48B8B</color>
     <!-- -->
 
 </resources>
