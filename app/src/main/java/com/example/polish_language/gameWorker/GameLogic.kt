@@ -58,7 +58,7 @@ fun checkIsCorrectAns(userAnswer: Boolean) {
     createNewGame()
 }
 
-private fun createRandomIdWord(): Int = (1..130).shuffled().last()
+private fun createRandomIdWord(): Int = (1..160).shuffled().last()
 private fun createRandomCorrectValue(): Boolean = Random.nextBoolean()
 private fun createExplanation(correct: Boolean): String {
     val answer = if (correct) "Верно!" else "Ошибка!"

@@ -648,5 +648,155 @@
     "pl_word": "Hala",
     "ru_word": "Зал",
     "ru_word_wrong": "Коридор"
+  },
+  "131": {
+    "pl_word": "Korytarz",
+    "ru_word": "Коридор",
+    "ru_word_wrong": "Зал"
+  },
+  "132": {
+    "pl_word": "Drzwi",
+    "ru_word": "Дверь",
+    "ru_word_wrong": "Окно"
+  },
+  "133": {
+    "pl_word": "Okno",
+    "ru_word": "Окно",
+    "ru_word_wrong": "Дверь"
+  },
+  "134": {
+    "pl_word": "Klucz",
+    "ru_word": "Ключ",
+    "ru_word_wrong": "Подоконик"
+  },
+  "135": {
+    "pl_word": "Łóżko",
+    "ru_word": "Кровать",
+    "ru_word_wrong": "Подушка"
+  },
+  "136": {
+    "pl_word": "Poduszka",
+    "ru_word": "Подушка",
+    "ru_word_wrong": "Одеяло"
+  },
+  "137": {
+    "pl_word": "Koc",
+    "ru_word": "Одеяло",
+    "ru_word_wrong": "Кровать"
+  },
+  "138": {
+    "pl_word": "Lodówka",
+    "ru_word": "Холодильник",
+    "ru_word_wrong": "Зеркало"
+  },
+  "139": {
+    "pl_word": "Lustro",
+    "ru_word": "Зеркало",
+    "ru_word_wrong": "Люстра"
+  },
+  "140": {
+    "pl_word": "Starfall",
+    "ru_word": "Звездопад",
+    "ru_word_wrong": "Зеркало"
+  },
+  "141": {
+    "pl_word": "Żywność",
+    "ru_word": "Еда",
+    "ru_word_wrong": "Зависимость"
+  },
+  "142": {
+    "pl_word": "Chleb",
+    "ru_word": "Хлеб",
+    "ru_word_wrong": "Булка"
+  },
+  "143": {
+    "pl_word": "Bulka",
+    "ru_word": "Булка",
+    "ru_word_wrong": "Будка"
+  },
+  "144": {
+    "pl_word": "Olej",
+    "ru_word": "Масло",
+    "ru_word_wrong": "Краски"
+  },
+  "145": {
+    "pl_word": "Ser",
+    "ru_word": "Сыр",
+    "ru_word_wrong": "Господин"
+  },
+  "146": {
+    "pl_word": "Kiełbasa",
+    "ru_word": "Колбаса",
+    "ru_word_wrong": "Батон"
+  },
+  "147": {
+    "pl_word": "Pieprz",
+    "ru_word": "Перец",
+    "ru_word_wrong": "Бумага"
+  },
+  "148": {
+    "pl_word": "Sól",
+    "ru_word": "Соль",
+    "ru_word_wrong": "Сахар"
+  },
+  "149": {
+    "pl_word": "Cukier",
+    "ru_word": "Сахар",
+    "ru_word_wrong": "Соль"
+  },
+  "150": {
+    "pl_word": "Jagoda",
+    "ru_word": "Ягода",
+    "ru_word_wrong": "Жвачка"
+  },
+  "151": {
+    "pl_word": "Dżem",
+    "ru_word": "Варенье",
+    "ru_word_wrong": "Мед"
+  },
+  "152": {
+    "pl_word": "Miód",
+    "ru_word": "Мед",
+    "ru_word_wrong": "Варенье"
+  },
+  "153": {
+    "pl_word": "Marchewka",
+    "ru_word": "Морковь",
+    "ru_word_wrong": "Картофель"
+  },
+  "154": {
+    "pl_word": "Ziemniak",
+    "ru_word": "Картофель",
+    "ru_word_wrong": "Морковь"
+  },
+  "155": {
+    "pl_word": "Arbuz",
+    "ru_word": "Арбуз",
+    "ru_word_wrong": "Дыня"
+  },
+  "156": {
+    "pl_word": "Melon",
+    "ru_word": "Дыня",
+    "ru_word_wrong": "Арбуз"
+  },
+  "157": {
+    "pl_word": "Ciasto",
+    "ru_word": "Пирожное",
+    "ru_word_wrong": "Торт"
+  },
+  "158": {
+    "pl_word": "Zegarek",
+    "ru_word": "Часы",
+    "ru_word_wrong": "Пироженое"
+  },
+  "159": {
+    "pl_word": "Jabłko",
+    "ru_word": "Яблоко",
+    "ru_word_wrong": "Груша"
+  },
+  "160": {
+    "pl_word": "Gruszka",
+    "ru_word": "Груша",
+    "ru_word_wrong": "Яблоко"
   }
 }

@@ -114,7 +114,7 @@
                 android:layout_below="@id/progressBar_decided_questions"
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="7dp"
-                android:text="0/100"
+                android:text="0/80"
                 android:textColor="#767676"
                 android:textSize="16dp"
                 tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />

@@ -3,8 +3,10 @@ package com.example.polish_language.tabsWorker
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
+import android.net.Uri
 import android.view.View
 import android.widget.ImageView
 import com.example.polish_language.R
@@ -62,7 +64,12 @@ private fun createListener(): View.OnClickListener = View.OnClickListener { view
 
 // Оставить отзыв о приложении:
 private fun setReview() {
-    println("---> Pushed Button: Set Review <---")
+    val browserIntent = Intent(
+        Intent.ACTION_VIEW,
+        Uri.parse("https://play.google.com/store/apps/developer?id=AC+Project")
+    )
+    context.startActivity(browserIntent)
+    dialogSettings.dismiss()
 }
 
 // Обнуление результата правильно выполненых заданий:
