@@ -8,6 +8,8 @@ import android.graphics.drawable.ColorDrawable
 import android.view.View
 import android.widget.ImageView
 import com.example.polish_language.R
+import com.example.polish_language.staticActions.restartStatistic
+import com.example.polish_language.staticActions.showToastRestartStatistic
 
 // Инизиализация окна с "Настройки":
 @SuppressLint("StaticFieldLeak")
@@ -21,8 +23,13 @@ private lateinit var buttonRestart: ImageView
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var buttonGetData: ImageView
+
+@SuppressLint("StaticFieldLeak")
+private lateinit var context: Context
+
 private lateinit var dialogSettings: Dialog
-fun initDialogSettings(context: Context) {
+fun initDialogSettings(mainContext: Context) {
+    context = mainContext
     dialogSettings = Dialog(context)
     dialogSettings.setContentView(R.layout.tab_settings)
     dialogSettings.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -60,7 +67,9 @@ private fun setReview() {
 
 // Обнуление результата правильно выполненых заданий:
 private fun restartGame() {
-    println("---> Pushed Button: Restart Game <---")
+    restartStatistic(context)
+    dialogSettings.dismiss()
+    showToastRestartStatistic()
 }
 
 // Запрос новых заданий для игр:

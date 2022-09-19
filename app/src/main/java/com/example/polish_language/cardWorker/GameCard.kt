@@ -1,6 +1,7 @@
 package com.example.polish_language.cardWorker
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.view.View
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -9,9 +10,11 @@ import android.widget.TextView
 import com.example.polish_language.R
 import com.example.polish_language.gameWorker.addWordOnScreen
 import com.example.polish_language.gameWorker.checkIsCorrectAns
+import com.example.polish_language.staticActions.getLastGamesFromStatistic
 import com.example.polish_language.staticActions.startAnimationButton
 import com.example.polish_language.staticActions.startAnimationImageView
 import com.example.polish_language.staticActions.startAnimationView
+import com.example.polish_language.tabsWorker.showGameOver
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var imageAnswerOne: ImageView
@@ -36,10 +39,22 @@ private lateinit var textPlWord: TextView
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var textRuWord: TextView
+
+@SuppressLint("StaticFieldLeak")
+private lateinit var context: Context
+
+@SuppressLint("StaticFieldLeak")
+private lateinit var cardChanger: CardChanger
 private lateinit var rootJSON: String
 
 // Инициализация и анимация всех объектов на карточке "Игра":
-fun initCardGameObjects(layout: LinearLayout, JSON: String) {
+fun initCardGameObjects(
+    layout: LinearLayout,
+    JSON: String,
+    mainContext: Context,
+    mainCardChanger: CardChanger
+) {
+    context = mainContext
 
     imageAnswerOne = layout.findViewById(R.id.smile_one) // Смайлик ответа №1
     imageAnswerOne.visibility = View.INVISIBLE
@@ -64,6 +79,7 @@ fun initCardGameObjects(layout: LinearLayout, JSON: String) {
     textRuWord = layout.findViewById(R.id.text_game_two) // Русское слово
 
     rootJSON = JSON // Основной словарь слов
+    cardChanger = mainCardChanger
 }
 
 // Обработчик нажатий на кнопки "Да" и "Нет":
@@ -75,7 +91,14 @@ private fun createListener(): View.OnClickListener = View.OnClickListener { view
 }
 
 // Получение нового уровня для игры:
-fun createNewGame() = addWordOnScreen(rootJSON, textPlWord, textRuWord)
+fun createNewGame() {
+    val lastGames = getLastGamesFromStatistic(context)
+
+    if (lastGames == 0) {
+        showGameOver()
+        cardChanger.startChanger()
+    } else addWordOnScreen(rootJSON, textPlWord, textRuWord, context)
+}
 
 // Отрисовка смайликов взависимости от ответа:
 fun startAnimationOfResultAnswer(correct: Boolean) {

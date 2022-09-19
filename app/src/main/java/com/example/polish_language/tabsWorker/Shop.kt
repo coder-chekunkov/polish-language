@@ -8,6 +8,8 @@ import android.graphics.drawable.ColorDrawable
 import android.view.View
 import android.widget.ImageView
 import com.example.polish_language.R
+import com.example.polish_language.staticActions.addRewardGames
+import com.example.polish_language.staticActions.showToastGetReward
 
 // Инизиализация окна с "Магазин":
 @SuppressLint("StaticFieldLeak")
@@ -15,8 +17,12 @@ private lateinit var buttonCloseShop: ImageView
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var buttonGetReward: ImageView
+
+@SuppressLint("StaticFieldLeak")
+private lateinit var context: Context
 private lateinit var dialogShop: Dialog
-fun initDialogShop(context: Context) {
+fun initDialogShop(mainContext: Context) {
+    context = mainContext
     dialogShop = Dialog(context)
     dialogShop.setContentView(R.layout.tab_shop)
     dialogShop.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -41,5 +47,7 @@ private fun createListener(): View.OnClickListener = View.OnClickListener { view
 
 // Запуск рекламы для получения новых игр:
 private fun getRewards() {
-    println("---> Pushed Button: Get Rewards <---")
+    addRewardGames(context)
+    showToastGetReward()
+    dialogShop.dismiss()
 }

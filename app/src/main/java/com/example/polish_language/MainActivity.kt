@@ -36,11 +36,9 @@ class MainActivity : AppCompatActivity() {
 
         initObjects() // Инициализация всех объектов на данной активности
         initDialogs() // Инициализация всех окон
+        initCardChanger() // Инициализация объекта смены каточек
         initCardDescriptionObjects(lDescription)
-        initCardGameObjects(lGame, rootStringJSON)
-
-        val viewFlipper = findViewById<ViewFlipper>(R.id.vf) // Смена карт
-        cardChanger = CardChanger(viewFlipper, buttonStart)
+        initCardGameObjects(lGame, rootStringJSON, this, cardChanger)
     }
 
     // Обработка нажатий на кнопки навигации:
@@ -91,6 +89,12 @@ class MainActivity : AppCompatActivity() {
         initDialogShop(this) // Окно "Магазин"
         initDialogGameOver(this) // Окно "Конец Игры"
         initToast(this) // Инициализация "Пояснения"
+    }
+
+    // Инициализация объекта смены карт:
+    private fun initCardChanger() {
+        val viewFlipper = findViewById<ViewFlipper>(R.id.vf)
+        cardChanger = CardChanger(viewFlipper, buttonStart)
     }
 
     // Запуск игры после смены карт:

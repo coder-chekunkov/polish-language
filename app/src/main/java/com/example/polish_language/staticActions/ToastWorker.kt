@@ -18,7 +18,7 @@ fun initToast(mainContext: Context) {
 
 // Вывод сообщения с пояснением:
 @SuppressLint("InflateParams")
-fun showToast(message: String, correct: Boolean) {
+fun showToastExplanation(message: String, correct: Boolean) {
 
     val view: View = if (correct) {
         LayoutInflater.from(context).inflate(R.layout.toast_correct, null)
@@ -30,7 +30,30 @@ fun showToast(message: String, correct: Boolean) {
     tvMessage.text = message
 
     val toastExplanation = Toast(context)
-
     toastExplanation.view = view
     toastExplanation.show()
+}
+
+// Вывод сообщения о сбросе статистики:
+@SuppressLint("InflateParams")
+fun showToastRestartStatistic() {
+    val view = LayoutInflater.from(context).inflate(R.layout.toast_statistic, null)
+    val tvMessage: TextView = view.findViewById(R.id.tvMessage)
+    tvMessage.text = "Статистика обновлена!"
+
+    val toastRestartStatistic = Toast(context)
+    toastRestartStatistic.view = view
+    toastRestartStatistic.show()
+}
+
+// Вывод сообщения о получении дополнительных игр:
+@SuppressLint("InflateParams")
+fun showToastGetReward() {
+    val view = LayoutInflater.from(context).inflate(R.layout.toast_shop, null)
+    val tvMessage: TextView = view.findViewById(R.id.tvMessage)
+    tvMessage.text = "Получены дополнительные игры!"
+
+    val toastGetReward = Toast(context)
+    toastGetReward.view = view
+    toastGetReward.show()
 }

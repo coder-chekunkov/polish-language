@@ -1,10 +1,12 @@
 package com.example.polish_language.gameWorker
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.widget.TextView
 import com.example.polish_language.cardWorker.createNewGame
 import com.example.polish_language.cardWorker.startAnimationOfResultAnswer
-import com.example.polish_language.staticActions.showToast
+import com.example.polish_language.staticActions.increaseStatistic
+import com.example.polish_language.staticActions.showToastExplanation
 import com.example.polish_language.staticActions.startAnimationTextView
 import kotlin.random.Random
 
@@ -13,8 +15,17 @@ private var plWordValue = "" // Переменная для хранения П�
 private var ruWordCorrectValue = "" // Переменная для хранения Русского-правильного слова
 private var ruWordWrongValue = "" // Переменная для хранения Русского-неправильного слова
 
+@SuppressLint("StaticFieldLeak")
+private lateinit var context: Context
+
 @SuppressLint("SetTextI18n")
-fun addWordOnScreen(rootStringJSON: String, plWord: TextView, ruWord: TextView) {
+fun addWordOnScreen(
+    rootStringJSON: String,
+    plWord: TextView,
+    ruWord: TextView,
+    mainContext: Context
+) {
+    context = mainContext
     isCorrect = createRandomCorrectValue() // Рандомная переменная для правильности слова
     val idWord = createRandomIdWord() // Рандомная переменная для номера слова
     val word = readDictionaryJSONFile(rootStringJSON, idWord) // Слово из словаря
@@ -35,11 +46,13 @@ fun checkIsCorrectAns(userAnswer: Boolean) {
     if (userAnswer == isCorrect) {
         val textOfExplanation = createExplanation(true) // Пояснение
         startAnimationOfResultAnswer(true) // Анимация смайликов результата (верно)
-        showToast(textOfExplanation, true) // Вывод сообщения с пояснением
+        showToastExplanation(textOfExplanation, true) // Вывод сообщения с пояснением
+        increaseStatistic(context, 1, 0) // Изменение статистики
     } else {
         val textOfExplanation = createExplanation(false) // Пояснение
         startAnimationOfResultAnswer(false) // Анимация смайликов результата (ошибка)
-        showToast(textOfExplanation, false) // Вывод сообщения с пояснением
+        showToastExplanation(textOfExplanation, false) // Вывод сообщения с пояснением
+        increaseStatistic(context, 0, 1) // Изменение статистики
     }
 
     createNewGame()

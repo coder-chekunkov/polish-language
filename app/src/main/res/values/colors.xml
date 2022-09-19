@@ -13,9 +13,11 @@
     <color name="colorOfBehindToolbar">#E48B8B</color>
     <!-- -->
 
-    <!-- Toast Explanation -->
+    <!-- Toasts -->
     <color name="goodAnswer">#66BB6A</color>
     <color name="wrongAnswer">#E48B8B</color>
+    <color name="restartStatistic">#FFCA28</color>
+    <color name="getReward">#29B6F6</color>
     <!-- -->
 
 </resources>
