@@ -11,6 +11,8 @@ import android.view.View
 import android.widget.ImageView
 import com.example.polish_language.R
 import com.example.polish_language.staticActions.restartStatistic
+import com.example.polish_language.staticActions.setBarOfProgress
+import com.example.polish_language.staticActions.setTextOfProgress
 import com.example.polish_language.staticActions.showToastRestartStatistic
 
 // Инизиализация окна с "Настройки":
@@ -75,8 +77,11 @@ private fun setReview() {
 // Обнуление результата правильно выполненых заданий:
 private fun restartGame() {
     restartStatistic(context)
-    dialogSettings.dismiss()
     showToastRestartStatistic()
+    dialogSettings.dismiss()
+
+    setTextOfProgress()
+    setBarOfProgress()
 }
 
 // Запрос новых заданий для игр:

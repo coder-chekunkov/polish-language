@@ -10,10 +10,7 @@ import android.widget.TextView
 import com.example.polish_language.R
 import com.example.polish_language.gameWorker.addWordOnScreen
 import com.example.polish_language.gameWorker.checkIsCorrectAns
-import com.example.polish_language.staticActions.getLastGamesFromStatistic
-import com.example.polish_language.staticActions.startAnimationButton
-import com.example.polish_language.staticActions.startAnimationImageView
-import com.example.polish_language.staticActions.startAnimationView
+import com.example.polish_language.staticActions.*
 import com.example.polish_language.tabsWorker.showGameOver
 
 @SuppressLint("StaticFieldLeak")
@@ -93,6 +90,8 @@ private fun createListener(): View.OnClickListener = View.OnClickListener { view
 // Получение нового уровня для игры:
 fun createNewGame() {
     val lastGames = getLastGamesFromStatistic(context)
+    setTextOfProgress()
+    setBarOfProgress()
 
     if (lastGames == 0) {
         showGameOver()

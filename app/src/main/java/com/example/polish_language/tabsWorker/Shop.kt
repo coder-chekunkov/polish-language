@@ -9,6 +9,8 @@ import android.view.View
 import android.widget.ImageView
 import com.example.polish_language.R
 import com.example.polish_language.staticActions.addRewardGames
+import com.example.polish_language.staticActions.setBarOfProgress
+import com.example.polish_language.staticActions.setTextOfProgress
 import com.example.polish_language.staticActions.showToastGetReward
 
 // Инизиализация окна с "Магазин":
@@ -50,4 +52,7 @@ private fun getRewards() {
     addRewardGames(context)
     showToastGetReward()
     dialogShop.dismiss()
+
+    setTextOfProgress()
+    setBarOfProgress()
 }

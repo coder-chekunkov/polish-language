@@ -26,7 +26,7 @@ fun getStatistic(context: Context): Statistic {
     val correctAnswers = mainStatistic.getInt(CORRECT_ANSWERS, 0) // Верные ответы
     val wrongAnswers = mainStatistic.getInt(WRONG_ANSWERS, 0) // Ошибки
     val allGames = mainStatistic.getInt(ALL_GAMES, 0) // Всего сыграно игр
-    val lastGames = mainStatistic.getInt(LAST_GAMES, 10) // Кол-во оставшихся игр
+    val lastGames = mainStatistic.getInt(LAST_GAMES, 80) // Кол-во оставшихся игр
 
     return Statistic(correctAnswers, wrongAnswers, allGames, lastGames)
 }
@@ -40,7 +40,7 @@ fun increaseStatistic(context: Context, correct: Int, wrong: Int) {
     val correctAnswers = mainStatistic.getInt(CORRECT_ANSWERS, 0) // Верные ответы
     val wrongAnswers = mainStatistic.getInt(WRONG_ANSWERS, 0) // Ошибки
     val allGames = mainStatistic.getInt(ALL_GAMES, 0) // Всего сыграно игр
-    val lastGames = mainStatistic.getInt(LAST_GAMES, 10) // Кол-во оставшихся игр
+    val lastGames = mainStatistic.getInt(LAST_GAMES, 80) // Кол-во оставшихся игр
 
     editor.putInt(CORRECT_ANSWERS, correctAnswers + correct)
     editor.putInt(WRONG_ANSWERS, wrongAnswers + wrong)
@@ -91,7 +91,7 @@ fun getLastGamesFromStatistic(context: Context): Int {
 }
 
 // Получение количество всех сыграных игр:
-fun getAllGamesFromStatistic(context: Context): Int {
+fun getCorrectAnswersFromStatistic(context: Context): Int {
     val mainStatistic = context.getSharedPreferences(APP_PREFERENCES, MODE_PRIVATE)
-    return mainStatistic.getInt(ALL_GAMES, 0)
+    return mainStatistic.getInt(CORRECT_ANSWERS, 0)
 }

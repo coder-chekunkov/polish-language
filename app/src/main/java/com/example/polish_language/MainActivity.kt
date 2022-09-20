@@ -9,6 +9,7 @@ import com.example.polish_language.cardWorker.createNewGame
 import com.example.polish_language.cardWorker.initCardDescriptionObjects
 import com.example.polish_language.cardWorker.initCardGameObjects
 import com.example.polish_language.gameWorker.*
+import com.example.polish_language.staticActions.initProgress
 import com.example.polish_language.staticActions.initToast
 import com.example.polish_language.staticActions.startAnimationButton
 import com.example.polish_language.tabsWorker.*
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cardChanger: CardChanger // Объект класса, который меняет карточки
     private lateinit var lDescription: LinearLayout // Layout с карточкой "Описание"
     private lateinit var lGame: LinearLayout // Layout с карточкой "Игра"
+    private lateinit var lProgress: RelativeLayout // Layout с прогрессом
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         initCardChanger() // Инициализация объекта смены каточек
         initCardDescriptionObjects(lDescription)
         initCardGameObjects(lGame, rootStringJSON, this, cardChanger)
+        initProgress(lProgress, this)
     }
 
     // Обработка нажатий на кнопки навигации:
@@ -79,6 +82,7 @@ class MainActivity : AppCompatActivity() {
         lDescription.setOnClickListener(createClickNavigationButtons())
 
         lGame = findViewById(R.id.lGame) // Карточка "Игра"
+        lProgress = findViewById(R.id.layout_static) // Layout с прогрессом
     }
 
     // Инициализация окон приложения:
