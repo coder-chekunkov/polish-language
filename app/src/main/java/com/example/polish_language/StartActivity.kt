@@ -2,8 +2,6 @@ package com.example.polish_language
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -13,14 +11,14 @@ class StartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_start)
 
-        val listener = View.OnClickListener { view -> if (view.id == R.id.goToMenu) goToMenu() }
-
-        val buttonMenu = findViewById<Button>(R.id.goToMenu)
-        buttonMenu.setOnClickListener(listener)
+        android.os.Handler().postDelayed({ goToMenu() }, 1000)
     }
 
+    // Переход в основное меню приложения:
     private fun goToMenu() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_left)
+        finishAfterTransition()
     }
 }

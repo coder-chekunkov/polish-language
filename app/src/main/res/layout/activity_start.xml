@@ -58,12 +58,4 @@
         android:textSize="14sp"
         tools:ignore="HardcodedText" />
 
-    <Button
-        android:id="@+id/goToMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="menu"
-        android:layout_below="@id/textView3"
-        android:layout_centerHorizontal="true"/>
-
 </RelativeLayout>
