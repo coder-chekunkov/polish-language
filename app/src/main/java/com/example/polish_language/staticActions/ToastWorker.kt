@@ -49,9 +49,9 @@ fun showToastRestartStatistic() {
 // Вывод сообщения о получении дополнительных игр:
 @SuppressLint("InflateParams")
 fun showToastGetReward() {
-    val view = LayoutInflater.from(context).inflate(R.layout.toast_shop, null)
+    val view = LayoutInflater.from(context).inflate(R.layout.toast_error, null)
     val tvMessage: TextView = view.findViewById(R.id.tvMessage)
-    tvMessage.text = "Получены дополнительные игры!"
+    tvMessage.text = "Реклама недоступна! Получены дополнительные игры!"
 
     val toastGetReward = Toast(context)
     toastGetReward.view = view

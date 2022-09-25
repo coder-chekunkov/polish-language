@@ -18,6 +18,7 @@
     <color name="wrongAnswer">#E48B8B</color>
     <color name="restartStatistic">#FFCA28</color>
     <color name="getReward">#29B6F6</color>
+    <color name="error">#D32F2F</color>
     <!-- -->
 
 </resources>
