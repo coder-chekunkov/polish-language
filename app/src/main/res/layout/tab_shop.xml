@@ -105,15 +105,15 @@
                         tools:ignore="HardcodedText,SpUsage"/>
 
                     <TextView
-                        android:textDirection="locale"
-                        android:gravity="center"
                         android:id="@+id/shop_text_timer"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/textView2"
+                        android:gravity="center"
                         android:text="24:00:00"
+                        android:textDirection="locale"
                         android:textSize="18dp"
-                        tools:ignore="HardcodedText,SpUsage,UnusedAttribute"/>
+                        tools:ignore="HardcodedText,SpUsage,UnusedAttribute" />
 
                 </RelativeLayout>
 

@@ -9,9 +9,7 @@ import com.example.polish_language.cardWorker.createNewGame
 import com.example.polish_language.cardWorker.initCardDescriptionObjects
 import com.example.polish_language.cardWorker.initCardGameObjects
 import com.example.polish_language.gameWorker.*
-import com.example.polish_language.staticActions.initProgress
-import com.example.polish_language.staticActions.initToast
-import com.example.polish_language.staticActions.startAnimationButton
+import com.example.polish_language.staticActions.*
 import com.example.polish_language.tabsWorker.*
 
 
@@ -42,6 +40,16 @@ class MainActivity : AppCompatActivity() {
         initCardDescriptionObjects(lDescription)
         initCardGameObjects(lGame, rootStringJSON, this, cardChanger)
         initProgress(lProgress, this)
+    }
+
+    override fun onStart() {
+        super.onStart()
+        getTimerPreferences(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        setTimerPreferences(this)
     }
 
     // Обработка нажатий на кнопки навигации:

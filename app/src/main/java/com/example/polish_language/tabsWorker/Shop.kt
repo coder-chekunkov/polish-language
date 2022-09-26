@@ -7,6 +7,7 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.view.View
 import android.widget.ImageView
+import android.widget.TextView
 import com.example.polish_language.R
 import com.example.polish_language.staticActions.addRewardGames
 import com.example.polish_language.staticActions.setBarOfProgress
@@ -22,6 +23,9 @@ private lateinit var buttonGetReward: ImageView
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var context: Context
+
+@SuppressLint("StaticFieldLeak")
+private lateinit var timeText: TextView
 private lateinit var dialogShop: Dialog
 fun initDialogShop(mainContext: Context) {
     context = mainContext
@@ -34,10 +38,17 @@ fun initDialogShop(mainContext: Context) {
 
     buttonGetReward = dialogShop.findViewById(R.id.button_shop_reward) // Кнопка получения игр
     buttonGetReward.setOnClickListener(createListener())
+    timeText = dialogShop.findViewById(R.id.shop_text_timer)
 }
 
 // Отображение окна с "Магазин":
 fun showShop() = dialogShop.show()
+
+// Вывод времени до дополнительных игр:
+fun showTimeShop(time: String) {
+    timeText.text = time
+}
+
 
 // Обработка нажатий на кнопки окна с "Магазин":
 private fun createListener(): View.OnClickListener = View.OnClickListener { view ->
