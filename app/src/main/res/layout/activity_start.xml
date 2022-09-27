@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#eaeaea">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,7 +29,7 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/logo"
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
@@ -42,7 +43,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="80dp"
         android:gravity="center_horizontal"
-        android:text="Добро пожаловать в приложение для изучения Чешского языка."
+        android:text="Добро пожаловать в приложение для изучения Польского языка."
         android:textAlignment="center"
         android:textSize="15sp"
         tools:ignore="HardcodedText,RtlHardcoded" />
