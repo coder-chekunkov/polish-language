@@ -798,5 +798,205 @@
     "pl_word": "Gruszka",
     "ru_word": "Груша",
     "ru_word_wrong": "Яблоко"
+  },
+  "161": {
+    "pl_word": "Pomidor",
+    "ru_word": "Помидор",
+    "ru_word_wrong": "Огурец"
+  },
+  "162": {
+    "pl_word": "Woda",
+    "ru_word": "Вода",
+    "ru_word_wrong": "Водка"
+  },
+  "163": {
+    "pl_word": "Wódka",
+    "ru_word": "Водка",
+    "ru_word_wrong": "Вода"
+  },
+  "164": {
+    "pl_word": "Morela",
+    "ru_word": "Абрикос",
+    "ru_word_wrong": "Мандарин"
+  },
+  "165": {
+    "pl_word": "Mandarynka",
+    "ru_word": "Мандарин",
+    "ru_word_wrong": "Абрикос"
+  },
+  "166": {
+    "pl_word": "Sok",
+    "ru_word": "Сок",
+    "ru_word_wrong": "Компот"
+  },
+  "167": {
+    "pl_word": "Kompot",
+    "ru_word": "Компот",
+    "ru_word_wrong": "Сок"
+  },
+  "168": {
+    "pl_word": "Soda",
+    "ru_word": "Газировка",
+    "ru_word_wrong": "Лимонад"
+  },
+  "169": {
+    "pl_word": "Lemoniada",
+    "ru_word": "Лимонад",
+    "ru_word_wrong": "Газировка"
+  },
+  "170": {
+    "pl_word": "Zupa",
+    "ru_word": "Суп",
+    "ru_word_wrong": "Каша"
+  },
+  "171": {
+    "pl_word": "Herbata",
+    "ru_word": "Чай",
+    "ru_word_wrong": "Кофе"
+  },
+  "172": {
+    "pl_word": "Kawa",
+    "ru_word": "Кофе",
+    "ru_word_wrong": "Чай"
+  },
+  "173": {
+    "pl_word": "Makaron",
+    "ru_word": "Лапша",
+    "ru_word_wrong": "Шоколад"
+  },
+  "174": {
+    "pl_word": "Wołowina",
+    "ru_word": "Говядина",
+    "ru_word_wrong": "Свинина"
+  },
+  "175": {
+    "pl_word": "Wieprzowina",
+    "ru_word": "Свинина",
+    "ru_word_wrong": "Говядина"
+  },
+  "176": {
+    "pl_word": "Jabłko",
+    "ru_word": "Яблоко",
+    "ru_word_wrong": "Виноград"
+  },
+  "177": {
+    "pl_word": "Winogrono",
+    "ru_word": "Виноград",
+    "ru_word_wrong": "Вино"
+  },
+  "178": {
+    "pl_word": "Kurczak",
+    "ru_word": "Курица",
+    "ru_word_wrong": "Рыба"
+  },
+  "179": {
+    "pl_word": "Ryba",
+    "ru_word": "Рыба",
+    "ru_word_wrong": "Птица"
+  },
+  "180": {
+    "pl_word": "Cytrynowy",
+    "ru_word": "Лимон",
+    "ru_word_wrong": "Лимонад"
+  },
+  "181": {
+    "pl_word": "Słodycz",
+    "ru_word": "Сладость",
+    "ru_word_wrong": "Мороженое"
+  },
+  "182": {
+    "pl_word": "Lody",
+    "ru_word": "Мороженое",
+    "ru_word_wrong": "Смородина"
+  },
+  "183": {
+    "pl_word": "Jajko",
+    "ru_word": "Яйцо",
+    "ru_word_wrong": "Орех"
+  },
+  "184": {
+    "pl_word": "Orzech",
+    "ru_word": "Орех",
+    "ru_word_wrong": "Яйцо"
+  },
+  "185": {
+    "pl_word": "Puchar",
+    "ru_word": "Чашка",
+    "ru_word_wrong": "Стакан"
+  },
+  "186": {
+    "pl_word": "Filiżanka",
+    "ru_word": "Стакан",
+    "ru_word_wrong": "Чашка"
+  },
+  "187": {
+    "pl_word": "Talerz",
+    "ru_word": "Тарелка",
+    "ru_word_wrong": "Ведро"
+  },
+  "188": {
+    "pl_word": "Widelec",
+    "ru_word": "Вилка",
+    "ru_word_wrong": "Ложка"
+  },
+  "189": {
+    "pl_word": "Łyżka",
+    "ru_word": "Ложка",
+    "ru_word_wrong": "Вилка"
+  },
+  "190": {
+    "pl_word": "Nóż",
+    "ru_word": "Нож",
+    "ru_word_wrong": "Ножницы"
+  },
+  "191": {
+    "pl_word": "Nożyce",
+    "ru_word": "Ножницы",
+    "ru_word_wrong": "Нож"
+  },
+  "192": {
+    "pl_word": "Spodek",
+    "ru_word": "Блюдце",
+    "ru_word_wrong": "Бутылка"
+  },
+  "193": {
+    "pl_word": "Butelka",
+    "ru_word": "Бутылка",
+    "ru_word_wrong": "Блюдце"
+  },
+  "194": {
+    "pl_word": "Śniadanie",
+    "ru_word": "Завтрак",
+    "ru_word_wrong": "Сметана"
+  },
+  "195": {
+    "pl_word": "Obiad",
+    "ru_word": "Ужин",
+    "ru_word_wrong": "Вечер"
+  },
+  "196": {
+    "pl_word": "Obiad",
+    "ru_word": "Обед",
+    "ru_word_wrong": "Полдник"
+  },
+  "197": {
+    "pl_word": "Czas",
+    "ru_word": "Время",
+    "ru_word_wrong": "Час"
+  },
+  "198": {
+    "pl_word": "Rok",
+    "ru_word": "Год",
+    "ru_word_wrong": "Судьба"
+  },
+  "199": {
+    "pl_word": "Miesiąc",
+    "ru_word": "Месяц",
+    "ru_word_wrong": "Луна"
+  },
+  "200": {
+    "pl_word": "Tydzień",
+    "ru_word": "Неделя",
+    "ru_word_wrong": "Завтрашний день"
   }
 }

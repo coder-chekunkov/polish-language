@@ -24,7 +24,7 @@ private lateinit var layout: RelativeLayout
 
 @SuppressLint("StaticFieldLeak")
 private lateinit var context: Context
-private const val allGamesCount = 160
+private const val allGamesCount = 200
 private const val lastGamesCount = 80
 
 fun initProgress(mainLayout: RelativeLayout, mainContext: Context) {
