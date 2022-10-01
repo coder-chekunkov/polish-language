@@ -2,7 +2,7 @@ package com.example.polish_language.gameWorker
 
 import android.content.Context
 import com.example.polish_language.R
-import org.json.JSONObject
+import org.json.JSONArray
 import java.io.BufferedReader
 import java.io.InputStream
 import java.io.InputStreamReader
@@ -12,14 +12,22 @@ class Word(val plWord: String, val ruWordCorrect: String, val ruWordWrong: Strin
 
 // Создание объекта с данными из словаря:
 fun readDictionaryJSONFile(rootStringJSON: String, idWord: Int): Word {
-    val jsonRoot = JSONObject(rootStringJSON)
-    val jsonWord = jsonRoot.getJSONObject(idWord.toString())
 
-    val plWord = jsonWord.getString("pl_word")
-    val ruWordCorrect = jsonWord.getString("ru_word")
-    val ruWordWrong = jsonWord.getString("ru_word_wrong")
+    val jsonArray = JSONArray(rootStringJSON)
+    for (i in 0 until jsonArray.length()) {
+        val jsonRoot = jsonArray.getJSONObject(i)
+        val id = jsonRoot.getInt("id")
 
-    return Word(plWord, ruWordCorrect, ruWordWrong)
+        if (id == idWord) {
+            val plWord = jsonRoot.getString("plWord")
+            val ruWord = jsonRoot.getString("ruWord")
+            val ruWrongWord = jsonRoot.getString("ruWrongWord")
+
+            return Word(plWord, ruWord, ruWrongWord)
+        }
+    }
+
+    return Word("error", "error", "error")
 }
 
 // Получение данных из словаря (dictionary.json):

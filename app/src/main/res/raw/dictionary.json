@@ -1,1002 +1,1202 @@
-{
-  "1": {
-    "pl_word": "Siema",
-    "ru_word": "Привет",
-    "ru_word_wrong": "Пока"
-  },
-  "2": {
-    "pl_word": "Nazwa",
-    "ru_word": "Имя",
-    "ru_word_wrong": "Фамилия"
-  },
-  "3": {
-    "pl_word": "Nazwisko",
-    "ru_word": "Фамилия",
-    "ru_word_wrong": "Имя"
-  },
-  "4": {
-    "pl_word": "Proszę",
-    "ru_word": "Пожалуйста",
-    "ru_word_wrong": "Извините"
-  },
-  "5": {
-    "pl_word": "Przepraszam",
-    "ru_word": "Извините",
-    "ru_word_wrong": "Пожалуйста"
-  },
-  "6": {
-    "pl_word": "Lato",
-    "ru_word": "Лето",
-    "ru_word_wrong": "Весна"
-  },
-  "7": {
-    "pl_word": "Zima",
-    "ru_word": "Зима",
-    "ru_word_wrong": "Осень"
-  },
-  "8": {
-    "pl_word": "Wiosna",
-    "ru_word": "Весна",
-    "ru_word_wrong": "Осень"
-  },
-  "9": {
-    "pl_word": "Jesień",
-    "ru_word": "Осень",
-    "ru_word_wrong": "Лето"
-  },
-  "10": {
-    "pl_word": "Autobus",
-    "ru_word": "Автобус",
-    "ru_word_wrong": "Трамвай"
-  },
-  "11": {
-    "pl_word": "Tramwajowy",
-    "ru_word": "Трамвай",
-    "ru_word_wrong": "Троллейбус"
-  },
-  "12": {
-    "pl_word": "Pod ziemią",
-    "ru_word": "Метро",
-    "ru_word_wrong": "Трамвай"
-  },
-  "13": {
-    "pl_word": "Bilet",
-    "ru_word": "Билет",
-    "ru_word_wrong": "Проезд"
-  },
-  "14": {
-    "pl_word": "Zatrzymaj się",
-    "ru_word": "Остановка",
-    "ru_word_wrong": "Станция метро"
-  },
-  "15": {
-    "pl_word": "Stacja",
-    "ru_word": "Станция метро",
-    "ru_word_wrong": "Остановка"
-  },
-  "16": {
-    "pl_word": "Wejście",
-    "ru_word": "Вход",
-    "ru_word_wrong": "Выход"
-  },
-  "17": {
-    "pl_word": "Wyjście",
-    "ru_word": "Выход",
-    "ru_word_wrong": "Вход"
-  },
-  "18": {
-    "pl_word": "Przemiana",
-    "ru_word": "Переход",
-    "ru_word_wrong": "Заезд"
-  },
-  "19": {
-    "pl_word": "Bank",
-    "ru_word": "Банк",
-    "ru_word_wrong": "Банкнота"
-  },
-  "20": {
-    "pl_word": "Kantor",
-    "ru_word": "Обменный пункт",
-    "ru_word_wrong": "Сметана"
-  },
-  "21": {
-    "pl_word": "Prowizja gotówkowa",
-    "ru_word": "Денежная комиссия",
-    "ru_word_wrong": "Оплата"
-  },
-  "22": {
-    "pl_word": "Pieniądze",
-    "ru_word": "Деньги",
-    "ru_word_wrong": "Карандаш"
-  },
-  "23": {
-    "pl_word": "Rubel",
-    "ru_word": "Рубль",
-    "ru_word_wrong": "Доллар"
-  },
-  "24": {
-    "pl_word": "Dolar",
-    "ru_word": "Доллар",
-    "ru_word_wrong": "Евро"
-  },
-  "25": {
-    "pl_word": "Euro",
-    "ru_word": "Евро",
-    "ru_word_wrong": "Доллар"
-  },
-  "26": {
-    "pl_word": "Polski złoty",
-    "ru_word": "Польский злотый",
-    "ru_word_wrong": "Чешское пиво"
-  },
-  "27": {
-    "pl_word": "Pomoc",
-    "ru_word": "Помогите",
-    "ru_word_wrong": "Прогуляться"
-  },
-  "28": {
-    "pl_word": "Policja",
-    "ru_word": "Полиция",
-    "ru_word_wrong": "Политика"
-  },
-  "29": {
-    "pl_word": "Karetka",
-    "ru_word": "Скорая помощь",
-    "ru_word_wrong": "Машина"
-  },
-  "30": {
-    "pl_word": "Ogień",
-    "ru_word": "Пожар",
-    "ru_word_wrong": "Вода"
-  },
-  "31": {
-    "pl_word": "Dom",
-    "ru_word": "Дом",
-    "ru_word_wrong": "Сарай"
-  },
-  "32": {
-    "pl_word": "Rezydencja",
-    "ru_word": "Местожительство",
-    "ru_word_wrong": "Квартира"
-  },
-  "33": {
-    "pl_word": "Wąchać",
-    "ru_word": "Нюхать",
-    "ru_word_wrong": "Чихать"
-  },
-  "34": {
-    "pl_word": "Kichać",
-    "ru_word": "Чихать",
-    "ru_word_wrong": "Кухня"
-  },
-  "35": {
-    "pl_word": "Samolot",
-    "ru_word": "Самолет",
-    "ru_word_wrong": "Птица"
-  },
-  "36": {
-    "pl_word": "Ptaki",
-    "ru_word": "Птицы",
-    "ru_word_wrong": "Друзья"
-  },
-  "37": {
-    "pl_word": "Slipy",
-    "ru_word": "Трусы",
-    "ru_word_wrong": "Колготки"
-  },
-  "38": {
-    "pl_word": "Mydło",
-    "ru_word": "Мыло",
-    "ru_word_wrong": "Плохой человек"
-  },
-  "39": {
-    "pl_word": "Оgórki",
-    "ru_word": "Огурцы",
-    "ru_word_wrong": "Окурки"
-  },
-  "40": {
-    "pl_word": "Owoc",
-    "ru_word": "Фрукты",
-    "ru_word_wrong": "Овощи"
-  },
-  "41": {
-    "pl_word": "Warzywa",
-    "ru_word": "Овощи",
-    "ru_word_wrong": "Фрукты"
-  },
-  "42": {
-    "pl_word": "Wiosłować",
-    "ru_word": "Весло",
-    "ru_word_wrong": "Повидло"
-  },
-  "43": {
-    "pl_word": "Komputer",
-    "ru_word": "Компьютер",
-    "ru_word_wrong": "Книга"
-  },
-  "44": {
-    "pl_word": "Książka",
-    "ru_word": "Книга",
-    "ru_word_wrong": "Регистрация"
-  },
-  "45": {
-    "pl_word": "Gryka",
-    "ru_word": "Гречка",
-    "ru_word_wrong": "Гриб"
-  },
-  "46": {
-    "pl_word": "Grzyb",
-    "ru_word": "Гриб",
-    "ru_word_wrong": "Болезнь"
-  },
-  "47": {
-    "pl_word": "Uwaga",
-    "ru_word": "Внимание",
-    "ru_word_wrong": "Уважение"
-  },
-  "48": {
-    "pl_word": "Szacunek",
-    "ru_word": "Уважение",
-    "ru_word_wrong": "Победа"
-  },
-  "49": {
-    "pl_word": "Piwnica",
-    "ru_word": "Подвал",
-    "ru_word_wrong": "Окоп"
-  },
-  "50": {
-    "pl_word": "Zniżka",
-    "ru_word": "Скидка",
-    "ru_word_wrong": "Книга"
-  },
-  "51": {
-    "pl_word": "Stół",
-    "ru_word": "Стол",
-    "ru_word_wrong": "Стул"
-  },
-  "52": {
-    "pl_word": "Krzesło",
-    "ru_word": "Стул",
-    "ru_word_wrong": "Кресло"
-  },
-  "53": {
-    "pl_word": "Człowiek",
-    "ru_word": "Человек",
-    "ru_word_wrong": "Муж"
-  },
-  "54": {
-    "pl_word": "Samiec",
-    "ru_word": "Мужчина",
-    "ru_word_wrong": "Муж"
-  },
-  "55": {
-    "pl_word": "Mąż",
-    "ru_word": "Муж",
-    "ru_word_wrong": "Мужчина"
-  },
-  "56": {
-    "pl_word": "Kobieta",
-    "ru_word": "Женщина",
-    "ru_word_wrong": "Жена"
-  },
-  "57": {
-    "pl_word": "Żona",
-    "ru_word": "Жена",
-    "ru_word_wrong": "Женщина"
-  },
-  "58": {
-    "pl_word": "Dziecko",
-    "ru_word": "Ребенок",
-    "ru_word_wrong": "Девочка"
-  },
-  "59": {
-    "pl_word": "Chłopak",
-    "ru_word": "Мальчик",
-    "ru_word_wrong": "Девочка"
-  },
-  "60": {
-    "pl_word": "Dziewczyna",
-    "ru_word": "Девочка",
-    "ru_word_wrong": "Мальчик"
-  },
-  "61": {
-    "pl_word": "Przyjaciel",
-    "ru_word": "Друг",
-    "ru_word_wrong": "Враг"
-  },
-  "62": {
-    "pl_word": "Wróg",
-    "ru_word": "Враг",
-    "ru_word_wrong": "Друг"
-  },
-  "63": {
-    "pl_word": "Gość",
-    "ru_word": "Гость",
-    "ru_word_wrong": "Гостиная"
-  },
-  "64": {
-    "pl_word": "Salon",
-    "ru_word": "Гостиная",
-    "ru_word_wrong": "Гость"
-  },
-  "65": {
-    "pl_word": "Rodzice",
-    "ru_word": "Родители",
-    "ru_word_wrong": "Родственник"
-  },
-  "66": {
-    "pl_word": "Rodzina",
-    "ru_word": "Семья",
-    "ru_word_wrong": "Родина"
-  },
-  "67": {
-    "pl_word": "Ojczyzna",
-    "ru_word": "Родина",
-    "ru_word_wrong": "Семья"
-  },
-  "68": {
-    "pl_word": "Ojciec",
-    "ru_word": "Отец",
-    "ru_word_wrong": "Мать"
-  },
-  "69": {
-    "pl_word": "Matka",
-    "ru_word": "Мать",
-    "ru_word_wrong": "Отец"
-  },
-  "70": {
-    "pl_word": "Syn",
-    "ru_word": "Сын",
-    "ru_word_wrong": "Дочь"
-  },
-  "71": {
-    "pl_word": "Córka",
-    "ru_word": "Дочь",
-    "ru_word_wrong": "Сын"
-  },
-  "72": {
-    "pl_word": "Dziadek",
-    "ru_word": "Дедушка",
-    "ru_word_wrong": "Бабушка"
-  },
-  "73": {
-    "pl_word": "Babcia",
-    "ru_word": "Бабушка",
-    "ru_word_wrong": "Дедушка"
-  },
-  "74": {
-    "pl_word": "Teść",
-    "ru_word": "Тесть (свекор)",
-    "ru_word_wrong": "Теща (свекровь)"
-  },
-  "75": {
-    "pl_word": "Teściowa",
-    "ru_word": "Теща (свекровь)",
-    "ru_word_wrong": "Тесть (свекор)"
-  },
-  "76": {
-    "pl_word": "Wujek",
-    "ru_word": "Дядя",
-    "ru_word_wrong": "Тетя"
-  },
-  "77": {
-    "pl_word": "Ciotka",
-    "ru_word": "Тетя",
-    "ru_word_wrong": "Дядя"
-  },
-  "78": {
-    "pl_word": "Brat",
-    "ru_word": "Брат",
-    "ru_word_wrong": "Сестра"
-  },
-  "79": {
-    "pl_word": "Siostra",
-    "ru_word": "Сестра",
-    "ru_word_wrong": "Брат"
-  },
-  "80": {
-    "pl_word": "Kuzyn",
-    "ru_word": "Двоюродный брат",
-    "ru_word_wrong": "Двоюродная сестра"
-  },
-  "81": {
-    "pl_word": "Sestřenice",
-    "ru_word": "Двоюродная сестра",
-    "ru_word_wrong": "Двоюродный брат"
-  },
-  "82": {
-    "pl_word": "Práce",
-    "ru_word": "Работа",
-    "ru_word_wrong": "Практика"
-  },
-  "83": {
-    "pl_word": "Praxe",
-    "ru_word": "Практика",
-    "ru_word_wrong": "Работа"
-  },
-  "84": {
-    "pl_word": "Učitel",
-    "ru_word": "Учитель",
-    "ru_word_wrong": "Водитель"
-  },
-  "85": {
-    "pl_word": "Řidič",
-    "ru_word": "Водитель",
-    "ru_word_wrong": "Учитель"
-  },
-  "86": {
-    "pl_word": "Pracovník",
-    "ru_word": "Рабочий",
-    "ru_word_wrong": "Справочник"
-  },
-  "87": {
-    "pl_word": "Adresář",
-    "ru_word": "Справочник",
-    "ru_word_wrong": "Рабочий"
-  },
-  "88": {
-    "pl_word": "Inženýr",
-    "ru_word": "Инженер",
-    "ru_word_wrong": "Студент"
-  },
-  "89": {
-    "pl_word": "Student",
-    "ru_word": "Студент",
-    "ru_word_wrong": "Инженер"
-  },
-  "90": {
-    "pl_word": "Lékař",
-    "ru_word": "Врач",
-    "ru_word_wrong": "Медсестра"
-  },
-  "91": {
-    "pl_word": "Zdravotní sestra",
-    "ru_word": "Медсестра",
-    "ru_word_wrong": "Врач"
-  },
-  "92": {
-    "pl_word": "Prodavač",
-    "ru_word": "Продавец",
-    "ru_word_wrong": "Журналист"
-  },
-  "93": {
-    "pl_word": "Novinář",
-    "ru_word": "Журналист",
-    "ru_word_wrong": "Продавец"
-  },
-  "94": {
-    "pl_word": "Účetní",
-    "ru_word": "Бухгалтер",
-    "ru_word_wrong": "Библиотекарь"
-  },
-  "95": {
-    "pl_word": "Malíř",
-    "ru_word": "Художник",
-    "ru_word_wrong": "Маляр"
-  },
-  "96": {
-    "pl_word": "Země",
-    "ru_word": "Страна",
-    "ru_word_wrong": "Земля"
-  },
-  "97": {
-    "pl_word": "Krajan",
-    "ru_word": "Земля",
-    "ru_word_wrong": "Страна"
-  },
-  "98": {
-    "pl_word": "Rusko",
-    "ru_word": "Россия",
-    "ru_word_wrong": "Румыния"
-  },
-  "99": {
-    "pl_word": "Rumunsko",
-    "ru_word": "Румыния",
-    "ru_word_wrong": "Россия"
-  },
-  "100": {
-    "pl_word": "Чехия",
-    "ru_word": "Českо",
-    "ru_word_wrong": "Slovensko"
-  },
-  "101": {
-    "pl_word": "Zvíře",
-    "ru_word": "Животное",
-    "ru_word_wrong": "Зверь"
-  },
-  "102": {
-    "pl_word": "Bestie",
-    "ru_word": "Зверь",
-    "ru_word_wrong": "Животное"
-  },
-  "103": {
-    "pl_word": "Kočka",
-    "ru_word": "Кошка",
-    "ru_word_wrong": "Кружка"
-  },
-  "104": {
-    "pl_word": "Džbánek",
-    "ru_word": "Кружка",
-    "ru_word_wrong": "Кошка"
-  },
-  "105": {
-    "pl_word": "Pes",
-    "ru_word": "Собака",
-    "ru_word_wrong": "Перо"
-  },
-  "106": {
-    "pl_word": "Město",
-    "ru_word": "Город",
-    "ru_word_wrong": "Место"
-  },
-  "107": {
-    "pl_word": "Místo",
-    "ru_word": "Место",
-    "ru_word_wrong": "Город"
-  },
-  "108": {
-    "pl_word": "Škola",
-    "ru_word": "Школа",
-    "ru_word_wrong": "Стадион"
-  },
-  "109": {
-    "pl_word": "Divadlo",
-    "ru_word": "Театр",
-    "ru_word_wrong": "Диван"
-  },
-  "110": {
-    "pl_word": "Pohovka",
-    "ru_word": "Диван",
-    "ru_word_wrong": "Театр"
-  },
-  "111": {
-    "pl_word": "Na zewnątrz",
-    "ru_word": "Улица",
-    "ru_word_wrong": "Каюта"
-  },
-  "112": {
-    "pl_word": "Kwadrat",
-    "ru_word": "Площадь",
-    "ru_word_wrong": "Квадрат"
-  },
-  "113": {
-    "pl_word": "Stacja kolejowa",
-    "ru_word": "Вокзал",
-    "ru_word_wrong": "Площадь"
-  },
-  "114": {
-    "pl_word": "Szpital",
-    "ru_word": "Больница",
-    "ru_word_wrong": "Прачечная"
-  },
-  "115": {
-    "pl_word": "Pranie",
-    "ru_word": "Прачечная",
-    "ru_word_wrong": "Больница"
-  },
-  "116": {
-    "pl_word": "Wynik",
-    "ru_word": "Магазин",
-    "ru_word_wrong": "Кладбище"
-  },
-  "117": {
-    "pl_word": "Cmentarz",
-    "ru_word": "Кладбище",
-    "ru_word_wrong": "Магазин"
-  },
-  "118": {
-    "pl_word": "Mieszkanie",
-    "ru_word": "Квартира",
-    "ru_word_wrong": "Существование"
-  },
-  "119": {
-    "pl_word": "Istnienie",
-    "ru_word": "Существование",
-    "ru_word_wrong": "Квартира"
-  },
-  "120": {
-    "pl_word": "Kuchnia",
-    "ru_word": "Кухня",
-    "ru_word_wrong": "Балкон"
-  },
-  "121": {
-    "pl_word": "Balkon",
-    "ru_word": "Балкон",
-    "ru_word_wrong": "Ванная"
-  },
-  "122": {
-    "pl_word": "Łazienka",
-    "ru_word": "Ванная",
-    "ru_word_wrong": "Кухня"
-  },
-  "123": {
-    "pl_word": "Kabina prysznicowa",
-    "ru_word": "Душ",
-    "ru_word_wrong": "Спальня"
-  },
-  "124": {
-    "pl_word": "Sypialnia",
-    "ru_word": "Спальня",
-    "ru_word_wrong": "Туалет"
-  },
-  "125": {
-    "pl_word": "Toaleta",
-    "ru_word": "Туалет",
-    "ru_word_wrong": "Спальня"
-  },
-  "126": {
-    "pl_word": "Piętro",
-    "ru_word": "Пол",
-    "ru_word_wrong": "Потолок"
-  },
-  "127": {
-    "pl_word": "Sufit",
-    "ru_word": "Потолок",
-    "ru_word_wrong": "Пол"
-  },
-  "128": {
-    "pl_word": "Piętro",
-    "ru_word": "Этаж",
-    "ru_word_wrong": "Лифт"
-  },
-  "129": {
-    "pl_word": "Winda",
-    "ru_word": "Лифт",
-    "ru_word_wrong": "Этаж"
-  },
-  "130": {
-    "pl_word": "Hala",
-    "ru_word": "Зал",
-    "ru_word_wrong": "Коридор"
-  },
-  "131": {
-    "pl_word": "Korytarz",
-    "ru_word": "Коридор",
-    "ru_word_wrong": "Зал"
-  },
-  "132": {
-    "pl_word": "Drzwi",
-    "ru_word": "Дверь",
-    "ru_word_wrong": "Окно"
-  },
-  "133": {
-    "pl_word": "Okno",
-    "ru_word": "Окно",
-    "ru_word_wrong": "Дверь"
-  },
-  "134": {
-    "pl_word": "Klucz",
-    "ru_word": "Ключ",
-    "ru_word_wrong": "Подоконик"
-  },
-  "135": {
-    "pl_word": "Łóżko",
-    "ru_word": "Кровать",
-    "ru_word_wrong": "Подушка"
-  },
-  "136": {
-    "pl_word": "Poduszka",
-    "ru_word": "Подушка",
-    "ru_word_wrong": "Одеяло"
-  },
-  "137": {
-    "pl_word": "Koc",
-    "ru_word": "Одеяло",
-    "ru_word_wrong": "Кровать"
-  },
-  "138": {
-    "pl_word": "Lodówka",
-    "ru_word": "Холодильник",
-    "ru_word_wrong": "Зеркало"
-  },
-  "139": {
-    "pl_word": "Lustro",
-    "ru_word": "Зеркало",
-    "ru_word_wrong": "Люстра"
-  },
-  "140": {
-    "pl_word": "Starfall",
-    "ru_word": "Звездопад",
-    "ru_word_wrong": "Зеркало"
-  },
-  "141": {
-    "pl_word": "Żywność",
-    "ru_word": "Еда",
-    "ru_word_wrong": "Зависимость"
-  },
-  "142": {
-    "pl_word": "Chleb",
-    "ru_word": "Хлеб",
-    "ru_word_wrong": "Булка"
-  },
-  "143": {
-    "pl_word": "Bulka",
-    "ru_word": "Булка",
-    "ru_word_wrong": "Будка"
-  },
-  "144": {
-    "pl_word": "Olej",
-    "ru_word": "Масло",
-    "ru_word_wrong": "Краски"
-  },
-  "145": {
-    "pl_word": "Ser",
-    "ru_word": "Сыр",
-    "ru_word_wrong": "Господин"
-  },
-  "146": {
-    "pl_word": "Kiełbasa",
-    "ru_word": "Колбаса",
-    "ru_word_wrong": "Батон"
-  },
-  "147": {
-    "pl_word": "Pieprz",
-    "ru_word": "Перец",
-    "ru_word_wrong": "Бумага"
-  },
-  "148": {
-    "pl_word": "Sól",
-    "ru_word": "Соль",
-    "ru_word_wrong": "Сахар"
-  },
-  "149": {
-    "pl_word": "Cukier",
-    "ru_word": "Сахар",
-    "ru_word_wrong": "Соль"
-  },
-  "150": {
-    "pl_word": "Jagoda",
-    "ru_word": "Ягода",
-    "ru_word_wrong": "Жвачка"
-  },
-  "151": {
-    "pl_word": "Dżem",
-    "ru_word": "Варенье",
-    "ru_word_wrong": "Мед"
-  },
-  "152": {
-    "pl_word": "Miód",
-    "ru_word": "Мед",
-    "ru_word_wrong": "Варенье"
-  },
-  "153": {
-    "pl_word": "Marchewka",
-    "ru_word": "Морковь",
-    "ru_word_wrong": "Картофель"
-  },
-  "154": {
-    "pl_word": "Ziemniak",
-    "ru_word": "Картофель",
-    "ru_word_wrong": "Морковь"
-  },
-  "155": {
-    "pl_word": "Arbuz",
-    "ru_word": "Арбуз",
-    "ru_word_wrong": "Дыня"
-  },
-  "156": {
-    "pl_word": "Melon",
-    "ru_word": "Дыня",
-    "ru_word_wrong": "Арбуз"
-  },
-  "157": {
-    "pl_word": "Ciasto",
-    "ru_word": "Пирожное",
-    "ru_word_wrong": "Торт"
-  },
-  "158": {
-    "pl_word": "Zegarek",
-    "ru_word": "Часы",
-    "ru_word_wrong": "Пироженое"
-  },
-  "159": {
-    "pl_word": "Jabłko",
-    "ru_word": "Яблоко",
-    "ru_word_wrong": "Груша"
-  },
-  "160": {
-    "pl_word": "Gruszka",
-    "ru_word": "Груша",
-    "ru_word_wrong": "Яблоко"
-  },
-  "161": {
-    "pl_word": "Pomidor",
-    "ru_word": "Помидор",
-    "ru_word_wrong": "Огурец"
-  },
-  "162": {
-    "pl_word": "Woda",
-    "ru_word": "Вода",
-    "ru_word_wrong": "Водка"
-  },
-  "163": {
-    "pl_word": "Wódka",
-    "ru_word": "Водка",
-    "ru_word_wrong": "Вода"
-  },
-  "164": {
-    "pl_word": "Morela",
-    "ru_word": "Абрикос",
-    "ru_word_wrong": "Мандарин"
-  },
-  "165": {
-    "pl_word": "Mandarynka",
-    "ru_word": "Мандарин",
-    "ru_word_wrong": "Абрикос"
-  },
-  "166": {
-    "pl_word": "Sok",
-    "ru_word": "Сок",
-    "ru_word_wrong": "Компот"
-  },
-  "167": {
-    "pl_word": "Kompot",
-    "ru_word": "Компот",
-    "ru_word_wrong": "Сок"
-  },
-  "168": {
-    "pl_word": "Soda",
-    "ru_word": "Газировка",
-    "ru_word_wrong": "Лимонад"
-  },
-  "169": {
-    "pl_word": "Lemoniada",
-    "ru_word": "Лимонад",
-    "ru_word_wrong": "Газировка"
-  },
-  "170": {
-    "pl_word": "Zupa",
-    "ru_word": "Суп",
-    "ru_word_wrong": "Каша"
-  },
-  "171": {
-    "pl_word": "Herbata",
-    "ru_word": "Чай",
-    "ru_word_wrong": "Кофе"
-  },
-  "172": {
-    "pl_word": "Kawa",
-    "ru_word": "Кофе",
-    "ru_word_wrong": "Чай"
-  },
-  "173": {
-    "pl_word": "Makaron",
-    "ru_word": "Лапша",
-    "ru_word_wrong": "Шоколад"
-  },
-  "174": {
-    "pl_word": "Wołowina",
-    "ru_word": "Говядина",
-    "ru_word_wrong": "Свинина"
-  },
-  "175": {
-    "pl_word": "Wieprzowina",
-    "ru_word": "Свинина",
-    "ru_word_wrong": "Говядина"
-  },
-  "176": {
-    "pl_word": "Jabłko",
-    "ru_word": "Яблоко",
-    "ru_word_wrong": "Виноград"
-  },
-  "177": {
-    "pl_word": "Winogrono",
-    "ru_word": "Виноград",
-    "ru_word_wrong": "Вино"
-  },
-  "178": {
-    "pl_word": "Kurczak",
-    "ru_word": "Курица",
-    "ru_word_wrong": "Рыба"
-  },
-  "179": {
-    "pl_word": "Ryba",
-    "ru_word": "Рыба",
-    "ru_word_wrong": "Птица"
-  },
-  "180": {
-    "pl_word": "Cytrynowy",
-    "ru_word": "Лимон",
-    "ru_word_wrong": "Лимонад"
-  },
-  "181": {
-    "pl_word": "Słodycz",
-    "ru_word": "Сладость",
-    "ru_word_wrong": "Мороженое"
-  },
-  "182": {
-    "pl_word": "Lody",
-    "ru_word": "Мороженое",
-    "ru_word_wrong": "Смородина"
-  },
-  "183": {
-    "pl_word": "Jajko",
-    "ru_word": "Яйцо",
-    "ru_word_wrong": "Орех"
-  },
-  "184": {
-    "pl_word": "Orzech",
-    "ru_word": "Орех",
-    "ru_word_wrong": "Яйцо"
-  },
-  "185": {
-    "pl_word": "Puchar",
-    "ru_word": "Чашка",
-    "ru_word_wrong": "Стакан"
-  },
-  "186": {
-    "pl_word": "Filiżanka",
-    "ru_word": "Стакан",
-    "ru_word_wrong": "Чашка"
-  },
-  "187": {
-    "pl_word": "Talerz",
-    "ru_word": "Тарелка",
-    "ru_word_wrong": "Ведро"
-  },
-  "188": {
-    "pl_word": "Widelec",
-    "ru_word": "Вилка",
-    "ru_word_wrong": "Ложка"
-  },
-  "189": {
-    "pl_word": "Łyżka",
-    "ru_word": "Ложка",
-    "ru_word_wrong": "Вилка"
-  },
-  "190": {
-    "pl_word": "Nóż",
-    "ru_word": "Нож",
-    "ru_word_wrong": "Ножницы"
-  },
-  "191": {
-    "pl_word": "Nożyce",
-    "ru_word": "Ножницы",
-    "ru_word_wrong": "Нож"
-  },
-  "192": {
-    "pl_word": "Spodek",
-    "ru_word": "Блюдце",
-    "ru_word_wrong": "Бутылка"
-  },
-  "193": {
-    "pl_word": "Butelka",
-    "ru_word": "Бутылка",
-    "ru_word_wrong": "Блюдце"
-  },
-  "194": {
-    "pl_word": "Śniadanie",
-    "ru_word": "Завтрак",
-    "ru_word_wrong": "Сметана"
-  },
-  "195": {
-    "pl_word": "Obiad",
-    "ru_word": "Ужин",
-    "ru_word_wrong": "Вечер"
-  },
-  "196": {
-    "pl_word": "Obiad",
-    "ru_word": "Обед",
-    "ru_word_wrong": "Полдник"
-  },
-  "197": {
-    "pl_word": "Czas",
-    "ru_word": "Время",
-    "ru_word_wrong": "Час"
-  },
-  "198": {
-    "pl_word": "Rok",
-    "ru_word": "Год",
-    "ru_word_wrong": "Судьба"
-  },
-  "199": {
-    "pl_word": "Miesiąc",
-    "ru_word": "Месяц",
-    "ru_word_wrong": "Луна"
-  },
-  "200": {
-    "pl_word": "Tydzień",
-    "ru_word": "Неделя",
-    "ru_word_wrong": "Завтрашний день"
+[
+  {
+    "id": 1,
+    "plWord": "Nazwa",
+    "ruWord": "Имя",
+    "ruWrongWord": "Фамилия"
+  },
+  {
+    "id": 2,
+    "plWord": "Nazwisko",
+    "ruWord": "Фамилия",
+    "ruWrongWord": "Имя"
+  },
+  {
+    "id": 3,
+    "plWord": "Proszę",
+    "ruWord": "Пожалуйста",
+    "ruWrongWord": "Извините"
+  },
+  {
+    "id": 4,
+    "plWord": "Przepraszam",
+    "ruWord": "Извините",
+    "ruWrongWord": "Пожалуйста"
+  },
+  {
+    "id": 5,
+    "plWord": "Lato",
+    "ruWord": "Лето",
+    "ruWrongWord": "Весна"
+  },
+  {
+    "id": 6,
+    "plWord": "Zima",
+    "ruWord": "Зима",
+    "ruWrongWord": "Осень"
+  },
+  {
+    "id": 7,
+    "plWord": "Wiosna",
+    "ruWord": "Весна",
+    "ruWrongWord": "Осень"
+  },
+  {
+    "id": 8,
+    "plWord": "Jesień",
+    "ruWord": "Осень",
+    "ruWrongWord": "Лето"
+  },
+  {
+    "id": 9,
+    "plWord": "Autobus",
+    "ruWord": "Автобус",
+    "ruWrongWord": "Трамвай"
+  },
+  {
+    "id": 10,
+    "plWord": "Tramwajowy",
+    "ruWord": "Трамвай",
+    "ruWrongWord": "Троллейбус"
+  },
+  {
+    "id": 11,
+    "plWord": "Pod ziemią",
+    "ruWord": "Метро",
+    "ruWrongWord": "Трамвай"
+  },
+  {
+    "id": 12,
+    "plWord": "Bilet",
+    "ruWord": "Билет",
+    "ruWrongWord": "Проезд"
+  },
+  {
+    "id": 13,
+    "plWord": "Zatrzymaj się",
+    "ruWord": "Остановка",
+    "ruWrongWord": "Станция метро"
+  },
+  {
+    "id": 14,
+    "plWord": "Stacja",
+    "ruWord": "Станция метро",
+    "ruWrongWord": "Остановка"
+  },
+  {
+    "id": 15,
+    "plWord": "Stacja",
+    "ruWord": "Станция метро",
+    "ruWrongWord": "Остановка"
+  },
+  {
+    "id": 16,
+    "plWord": "Stacja",
+    "ruWord": "Станция метро",
+    "ruWrongWord": "Остановка"
+  },
+  {
+    "id": 17,
+    "plWord": "Wejście",
+    "ruWord": "Вход",
+    "ruWrongWord": "Выход"
+  },
+  {
+    "id": 18,
+    "plWord": "Wyjście",
+    "ruWord": "Выход",
+    "ruWrongWord": "Вход"
+  },
+  {
+    "id": 19,
+    "plWord": "Przemiana",
+    "ruWord": "Переход",
+    "ruWrongWord": "Заезд"
+  },
+  {
+    "id": 20,
+    "plWord": "Bank",
+    "ruWord": "Банк",
+    "ruWrongWord": "Банкнота"
+  },
+  {
+    "id": 21,
+    "plWord": "Kantor",
+    "ruWord": "Обменный пункт",
+    "ruWrongWord": "Сметана"
+  },
+  {
+    "id": 22,
+    "plWord": "Prowizja gotówkowa",
+    "ruWord": "Денежная комиссия",
+    "ruWrongWord": "Оплата"
+  },
+  {
+    "id": 23,
+    "plWord": "Pieniądze",
+    "ruWord": "Деньги",
+    "ruWrongWord": "Карандаш"
+  },
+  {
+    "id": 24,
+    "plWord": "Rubel",
+    "ruWord": "Рубль",
+    "ruWrongWord": "Доллар"
+  },
+  {
+    "id": 25,
+    "plWord": "Dolar",
+    "ruWord": "Доллар",
+    "ruWrongWord": "Евро"
+  },
+  {
+    "id": 26,
+    "plWord": "Euro",
+    "ruWord": "Евро",
+    "ruWrongWord": "Доллар"
+  },
+  {
+    "id": 27,
+    "plWord": "Polski złoty",
+    "ruWord": "Польский злотый",
+    "ruWrongWord": "Чешское пиво"
+  },
+  {
+    "id": 28,
+    "plWord": "Pomoc",
+    "ruWord": "Помогите",
+    "ruWrongWord": "Прогуляться"
+  },
+  {
+    "id": 29,
+    "plWord": "Policja",
+    "ruWord": "Полиция",
+    "ruWrongWord": "Политика"
+  },
+  {
+    "id": 30,
+    "plWord": "Karetka",
+    "ruWord": "Скорая помощь",
+    "ruWrongWord": "Машина"
+  },
+  {
+    "id": 31,
+    "plWord": "Ogień",
+    "ruWord": "Пожар",
+    "ruWrongWord": "Вода"
+  },
+  {
+    "id": 32,
+    "plWord": "Dom",
+    "ruWord": "Дом",
+    "ruWrongWord": "Сарай"
+  },
+  {
+    "id": 33,
+    "plWord": "Rezydencja",
+    "ruWord": "Местожительство",
+    "ruWrongWord": "Квартира"
+  },
+  {
+    "id": 34,
+    "plWord": "Wąchać",
+    "ruWord": "Нюхать",
+    "ruWrongWord": "Чихать"
+  },
+  {
+    "id": 35,
+    "plWord": "Kichać",
+    "ruWord": "Чихать",
+    "ruWrongWord": "Кухня"
+  },
+  {
+    "id": 36,
+    "plWord": "Samolot",
+    "ruWord": "Самолет",
+    "ruWrongWord": "Птица"
+  },
+  {
+    "id": 37,
+    "plWord": "Ptaki",
+    "ruWord": "Птицы",
+    "ruWrongWord": "Друзья"
+  },
+  {
+    "id": 38,
+    "plWord": "Slipy",
+    "ruWord": "Трусы",
+    "ruWrongWord": "Колготки"
+  },
+  {
+    "id": 39,
+    "plWord": "Mydło",
+    "ruWord": "Мыло",
+    "ruWrongWord": "Плохой человек"
+  },
+  {
+    "id": 40,
+    "plWord": "Оgórki",
+    "ruWord": "Огурцы",
+    "ruWrongWord": "Окурки"
+  },
+  {
+    "id": 41,
+    "plWord": "Owoc",
+    "ruWord": "Фрукты",
+    "ruWrongWord": "Овощи"
+  },
+  {
+    "id": 42,
+    "plWord": "Warzywa",
+    "ruWord": "Овощи",
+    "ruWrongWord": "Фрукты"
+  },
+  {
+    "id": 43,
+    "plWord": "Wiosłować",
+    "ruWord": "Весло",
+    "ruWrongWord": "Повидло"
+  },
+  {
+    "id": 44,
+    "plWord": "Komputer",
+    "ruWord": "Компьютер",
+    "ruWrongWord": "Книга"
+  },
+  {
+    "id": 45,
+    "plWord": "Książka",
+    "ruWord": "Книга",
+    "ruWrongWord": "Регистрация"
+  },
+  {
+    "id": 46,
+    "plWord": "Gryka",
+    "ruWord": "Гречка",
+    "ruWrongWord": "Гриб"
+  },
+  {
+    "id": 47,
+    "plWord": "Grzyb",
+    "ruWord": "Гриб",
+    "ruWrongWord": "Болезнь"
+  },
+  {
+    "id": 48,
+    "plWord": "Uwaga",
+    "ruWord": "Внимание",
+    "ruWrongWord": "Уважение"
+  },
+  {
+    "id": 49,
+    "plWord": "Szacunek",
+    "ruWord": "Уважение",
+    "ruWrongWord": "Победа"
+  },
+  {
+    "id": 50,
+    "plWord": "Piwnica",
+    "ruWord": "Подвал",
+    "ruWrongWord": "Окоп"
+  },
+  {
+    "id": 51,
+    "plWord": "Zniżka",
+    "ruWord": "Скидка",
+    "ruWrongWord": "Книга"
+  },
+  {
+    "id": 52,
+    "plWord": "Stół",
+    "ruWord": "Стол",
+    "ruWrongWord": "Стул"
+  },
+  {
+    "id": 53,
+    "plWord": "Krzesło",
+    "ruWord": "Стул",
+    "ruWrongWord": "Кресло"
+  },
+  {
+    "id": 54,
+    "plWord": "Człowiek",
+    "ruWord": "Человек",
+    "ruWrongWord": "Муж"
+  },
+  {
+    "id": 55,
+    "plWord": "Samiec",
+    "ruWord": "Мужчина",
+    "ruWrongWord": "Муж"
+  },
+  {
+    "id": 56,
+    "plWord": "Mąż",
+    "ruWord": "Муж",
+    "ruWrongWord": "Мужчина"
+  },
+  {
+    "id": 57,
+    "plWord": "Kobieta",
+    "ruWord": "Женщина",
+    "ruWrongWord": "Жена"
+  },
+  {
+    "id": 58,
+    "plWord": "Żona",
+    "ruWord": "Жена",
+    "ruWrongWord": "Женщина"
+  },
+  {
+    "id": 59,
+    "plWord": "Dziecko",
+    "ruWord": "Ребенок",
+    "ruWrongWord": "Девочка"
+  },
+  {
+    "id": 60,
+    "plWord": "Chłopak",
+    "ruWord": "Мальчик",
+    "ruWrongWord": "Девочка"
+  },
+  {
+    "id": 61,
+    "plWord": "Dziewczyna",
+    "ruWord": "Девочка",
+    "ruWrongWord": "Мальчик"
+  },
+  {
+    "id": 62,
+    "plWord": "Przyjaciel",
+    "ruWord": "Друг",
+    "ruWrongWord": "Враг"
+  },
+  {
+    "id": 63,
+    "plWord": "Wróg",
+    "ruWord": "Враг",
+    "ruWrongWord": "Друг"
+  },
+  {
+    "id": 64,
+    "plWord": "Gość",
+    "ruWord": "Гость",
+    "ruWrongWord": "Гостиная"
+  },
+  {
+    "id": 65,
+    "plWord": "Salon",
+    "ruWord": "Гостиная",
+    "ruWrongWord": "Гость"
+  },
+  {
+    "id": 66,
+    "plWord": "Rodzice",
+    "ruWord": "Родители",
+    "ruWrongWord": "Родственник"
+  },
+  {
+    "id": 67,
+    "plWord": "Rodzina",
+    "ruWord": "Семья",
+    "ruWrongWord": "Родина"
+  },
+  {
+    "id": 68,
+    "plWord": "Ojczyzna",
+    "ruWord": "Родина",
+    "ruWrongWord": "Семья"
+  },
+  {
+    "id": 69,
+    "plWord": "Ojciec",
+    "ruWord": "Отец",
+    "ruWrongWord": "Мать"
+  },
+  {
+    "id": 70,
+    "plWord": "Matka",
+    "ruWord": "Мать",
+    "ruWrongWord": "Отец"
+  },
+  {
+    "id": 71,
+    "plWord": "Syn",
+    "ruWord": "Сын",
+    "ruWrongWord": "Дочь"
+  },
+  {
+    "id": 72,
+    "plWord": "Córka",
+    "ruWord": "Дочь",
+    "ruWrongWord": "Сын"
+  },
+  {
+    "id": 73,
+    "plWord": "Dziadek",
+    "ruWord": "Дедушка",
+    "ruWrongWord": "Бабушка"
+  },
+  {
+    "id": 74,
+    "plWord": "Babcia",
+    "ruWord": "Бабушка",
+    "ruWrongWord": "Дедушка"
+  },
+  {
+    "id": 75,
+    "plWord": "Teść",
+    "ruWord": "Тесть (свекор)",
+    "ruWrongWord": "Теща (свекровь)"
+  },
+  {
+    "id": 76,
+    "plWord": "Teściowa",
+    "ruWord": "Теща (свекровь)",
+    "ruWrongWord": "Тесть (свекор)"
+  },
+  {
+    "id": 77,
+    "plWord": "Wujek",
+    "ruWord": "Дядя",
+    "ruWrongWord": "Тетя"
+  },
+  {
+    "id": 78,
+    "plWord": "Ciotka",
+    "ruWord": "Тетя",
+    "ruWrongWord": "Дядя"
+  },
+  {
+    "id": 79,
+    "plWord": "Brat",
+    "ruWord": "Брат",
+    "ruWrongWord": "Сестра"
+  },
+  {
+    "id": 80,
+    "plWord": "Siostra",
+    "ruWord": "Сестра",
+    "ruWrongWord": "Брат"
+  },
+  {
+    "id": 81,
+    "plWord": "Kuzyn",
+    "ruWord": "Двоюродный брат",
+    "ruWrongWord": "Двоюродная сестра"
+  },
+  {
+    "id": 82,
+    "plWord": "Sestřenice",
+    "ruWord": "Двоюродная сестра",
+    "ruWrongWord": "Двоюродный брат"
+  },
+  {
+    "id": 83,
+    "plWord": "Práce",
+    "ruWord": "Работа",
+    "ruWrongWord": "Практика"
+  },
+  {
+    "id": 84,
+    "plWord": "Praxe",
+    "ruWord": "Практика",
+    "ruWrongWord": "Работа"
+  },
+  {
+    "id": 85,
+    "plWord": "Učitel",
+    "ruWord": "Учитель",
+    "ruWrongWord": "Водитель"
+  },
+  {
+    "id": 86,
+    "plWord": "Řidič",
+    "ruWord": "Водитель",
+    "ruWrongWord": "Учитель"
+  },
+  {
+    "id": 87,
+    "plWord": "Pracovník",
+    "ruWord": "Рабочий",
+    "ruWrongWord": "Справочник"
+  },
+  {
+    "id": 88,
+    "plWord": "Adresář",
+    "ruWord": "Справочник",
+    "ruWrongWord": "Рабочий"
+  },
+  {
+    "id": 89,
+    "plWord": "Inženýr",
+    "ruWord": "Инженер",
+    "ruWrongWord": "Студент"
+  },
+  {
+    "id": 90,
+    "plWord": "Student",
+    "ruWord": "Студент",
+    "ruWrongWord": "Инженер"
+  },
+  {
+    "id": 91,
+    "plWord": "Lékař",
+    "ruWord": "Врач",
+    "ruWrongWord": "Медсестра"
+  },
+  {
+    "id": 92,
+    "plWord": "Zdravotní sestra",
+    "ruWord": "Медсестра",
+    "ruWrongWord": "Врач"
+  },
+  {
+    "id": 93,
+    "plWord": "Prodavač",
+    "ruWord": "Продавец",
+    "ruWrongWord": "Журналист"
+  },
+  {
+    "id": 94,
+    "plWord": "Novinář",
+    "ruWord": "Журналист",
+    "ruWrongWord": "Продавец"
+  },
+  {
+    "id": 95,
+    "plWord": "Účetní",
+    "ruWord": "Бухгалтер",
+    "ruWrongWord": "Библиотекарь"
+  },
+  {
+    "id": 96,
+    "plWord": "Malíř",
+    "ruWord": "Художник",
+    "ruWrongWord": "Маляр"
+  },
+  {
+    "id": 97,
+    "plWord": "Země",
+    "ruWord": "Страна",
+    "ruWrongWord": "Земля"
+  },
+  {
+    "id": 98,
+    "plWord": "Krajan",
+    "ruWord": "Земля",
+    "ruWrongWord": "Страна"
+  },
+  {
+    "id": 99,
+    "plWord": "Rusko",
+    "ruWord": "Россия",
+    "ruWrongWord": "Румыния"
+  },
+  {
+    "id": 100,
+    "plWord": "Rumunsko",
+    "ruWord": "Румыния",
+    "ruWrongWord": "Россия"
+  },
+  {
+    "id": 101,
+    "plWord": "Чехия",
+    "ruWord": "Českо",
+    "ruWrongWord": "Slovensko"
+  },
+  {
+    "id": 102,
+    "plWord": "Zvíře",
+    "ruWord": "Животное",
+    "ruWrongWord": "Зверь"
+  },
+  {
+    "id": 103,
+    "plWord": "Bestie",
+    "ruWord": "Зверь",
+    "ruWrongWord": "Животное"
+  },
+  {
+    "id": 104,
+    "plWord": "Kočka",
+    "ruWord": "Кошка",
+    "ruWrongWord": "Кружка"
+  },
+  {
+    "id": 105,
+    "plWord": "Džbánek",
+    "ruWord": "Кружка",
+    "ruWrongWord": "Кошка"
+  },
+  {
+    "id": 106,
+    "plWord": "Pes",
+    "ruWord": "Собака",
+    "ruWrongWord": "Перо"
+  },
+  {
+    "id": 107,
+    "plWord": "Město",
+    "ruWord": "Город",
+    "ruWrongWord": "Место"
+  },
+  {
+    "id": 108,
+    "plWord": "Místo",
+    "ruWord": "Место",
+    "ruWrongWord": "Город"
+  },
+  {
+    "id": 109,
+    "plWord": "Škola",
+    "ruWord": "Школа",
+    "ruWrongWord": "Стадион"
+  },
+  {
+    "id": 110,
+    "plWord": "Divadlo",
+    "ruWord": "Театр",
+    "ruWrongWord": "Диван"
+  },
+  {
+    "id": 111,
+    "plWord": "Pohovka",
+    "ruWord": "Диван",
+    "ruWrongWord": "Театр"
+  },
+  {
+    "id": 112,
+    "plWord": "Na zewnątrz",
+    "ruWord": "Улица",
+    "ruWrongWord": "Каюта"
+  },
+  {
+    "id": 113,
+    "plWord": "Kwadrat",
+    "ruWord": "Площадь",
+    "ruWrongWord": "Квадрат"
+  },
+  {
+    "id": 114,
+    "plWord": "Stacja kolejowa",
+    "ruWord": "Вокзал",
+    "ruWrongWord": "Площадь"
+  },
+  {
+    "id": 115,
+    "plWord": "Szpital",
+    "ruWord": "Больница",
+    "ruWrongWord": "Прачечная"
+  },
+  {
+    "id": 116,
+    "plWord": "Pranie",
+    "ruWord": "Прачечная",
+    "ruWrongWord": "Больница"
+  },
+  {
+    "id": 117,
+    "plWord": "Wynik",
+    "ruWord": "Магазин",
+    "ruWrongWord": "Кладбище"
+  },
+  {
+    "id": 118,
+    "plWord": "Cmentarz",
+    "ruWord": "Кладбище",
+    "ruWrongWord": "Магазин"
+  },
+  {
+    "id": 119,
+    "plWord": "Mieszkanie",
+    "ruWord": "Квартира",
+    "ruWrongWord": "Существование"
+  },
+  {
+    "id": 120,
+    "plWord": "Istnienie",
+    "ruWord": "Существование",
+    "ruWrongWord": "Квартира"
+  },
+  {
+    "id": 121,
+    "plWord": "Kuchnia",
+    "ruWord": "Кухня",
+    "ruWrongWord": "Балкон"
+  },
+  {
+    "id": 122,
+    "plWord": "Balkon",
+    "ruWord": "Балкон",
+    "ruWrongWord": "Ванная"
+  },
+  {
+    "id": 123,
+    "plWord": "Łazienka",
+    "ruWord": "Ванная",
+    "ruWrongWord": "Кухня"
+  },
+  {
+    "id": 124,
+    "plWord": "Kabina prysznicowa",
+    "ruWord": "Душ",
+    "ruWrongWord": "Спальня"
+  },
+  {
+    "id": 125,
+    "plWord": "Sypialnia",
+    "ruWord": "Спальня",
+    "ruWrongWord": "Туалет"
+  },
+  {
+    "id": 126,
+    "plWord": "Toaleta",
+    "ruWord": "Туалет",
+    "ruWrongWord": "Спальня"
+  },
+  {
+    "id": 127,
+    "plWord": "Piętro",
+    "ruWord": "Пол",
+    "ruWrongWord": "Потолок"
+  },
+  {
+    "id": 128,
+    "plWord": "Sufit",
+    "ruWord": "Потолок",
+    "ruWrongWord": "Пол"
+  },
+  {
+    "id": 129,
+    "plWord": "Piętro",
+    "ruWord": "Этаж",
+    "ruWrongWord": "Лифт"
+  },
+  {
+    "id": 130,
+    "plWord": "Winda",
+    "ruWord": "Лифт",
+    "ruWrongWord": "Этаж"
+  },
+  {
+    "id": 131,
+    "plWord": "Hala",
+    "ruWord": "Зал",
+    "ruWrongWord": "Коридор"
+  },
+  {
+    "id": 132,
+    "plWord": "Korytarz",
+    "ruWord": "Коридор",
+    "ruWrongWord": "Зал"
+  },
+  {
+    "id": 133,
+    "plWord": "Drzwi",
+    "ruWord": "Дверь",
+    "ruWrongWord": "Окно"
+  },
+  {
+    "id": 134,
+    "plWord": "Okno",
+    "ruWord": "Окно",
+    "ruWrongWord": "Дверь"
+  },
+  {
+    "id": 135,
+    "plWord": "Klucz",
+    "ruWord": "Ключ",
+    "ruWrongWord": "Подоконик"
+  },
+  {
+    "id": 136,
+    "plWord": "Łóżko",
+    "ruWord": "Кровать",
+    "ruWrongWord": "Подушка"
+  },
+  {
+    "id": 137,
+    "plWord": "Poduszka",
+    "ruWord": "Подушка",
+    "ruWrongWord": "Одеяло"
+  },
+  {
+    "id": 138,
+    "plWord": "Koc",
+    "ruWord": "Одеяло",
+    "ruWrongWord": "Кровать"
+  },
+  {
+    "id": 139,
+    "plWord": "Lodówka",
+    "ruWord": "Холодильник",
+    "ruWrongWord": "Зеркало"
+  },
+  {
+    "id": 140,
+    "plWord": "Lustro",
+    "ruWord": "Зеркало",
+    "ruWrongWord": "Люстра"
+  },
+  {
+    "id": 141,
+    "plWord": "Starfall",
+    "ruWord": "Звездопад",
+    "ruWrongWord": "Зеркало"
+  },
+  {
+    "id": 142,
+    "plWord": "Żywność",
+    "ruWord": "Еда",
+    "ruWrongWord": "Зависимость"
+  },
+  {
+    "id": 143,
+    "plWord": "Chleb",
+    "ruWord": "Хлеб",
+    "ruWrongWord": "Булка"
+  },
+  {
+    "id": 144,
+    "plWord": "Bulka",
+    "ruWord": "Булка",
+    "ruWrongWord": "Будка"
+  },
+  {
+    "id": 145,
+    "plWord": "Olej",
+    "ruWord": "Масло",
+    "ruWrongWord": "Краски"
+  },
+  {
+    "id": 146,
+    "plWord": "Ser",
+    "ruWord": "Сыр",
+    "ruWrongWord": "Господин"
+  },
+  {
+    "id": 147,
+    "plWord": "Kiełbasa",
+    "ruWord": "Колбаса",
+    "ruWrongWord": "Батон"
+  },
+  {
+    "id": 148,
+    "plWord": "Pieprz",
+    "ruWord": "Перец",
+    "ruWrongWord": "Бумага"
+  },
+  {
+    "id": 149,
+    "plWord": "Sól",
+    "ruWord": "Соль",
+    "ruWrongWord": "Сахар"
+  },
+  {
+    "id": 150,
+    "plWord": "Cukier",
+    "ruWord": "Сахар",
+    "ruWrongWord": "Соль"
+  },
+  {
+    "id": 151,
+    "plWord": "Jagoda",
+    "ruWord": "Ягода",
+    "ruWrongWord": "Жвачка"
+  },
+  {
+    "id": 152,
+    "plWord": "Dżem",
+    "ruWord": "Варенье",
+    "ruWrongWord": "Мед"
+  },
+  {
+    "id": 153,
+    "plWord": "Miód",
+    "ruWord": "Мед",
+    "ruWrongWord": "Варенье"
+  },
+  {
+    "id": 154,
+    "plWord": "Marchewka",
+    "ruWord": "Морковь",
+    "ruWrongWord": "Картофель"
+  },
+  {
+    "id": 155,
+    "plWord": "Ziemniak",
+    "ruWord": "Картофель",
+    "ruWrongWord": "Морковь"
+  },
+  {
+    "id": 156,
+    "plWord": "Arbuz",
+    "ruWord": "Арбуз",
+    "ruWrongWord": "Дыня"
+  },
+  {
+    "id": 157,
+    "plWord": "Melon",
+    "ruWord": "Дыня",
+    "ruWrongWord": "Арбуз"
+  },
+  {
+    "id": 158,
+    "plWord": "Ciasto",
+    "ruWord": "Пирожное",
+    "ruWrongWord": "Торт"
+  },
+  {
+    "id": 159,
+    "plWord": "Zegarek",
+    "ruWord": "Часы",
+    "ruWrongWord": "Пироженое"
+  },
+  {
+    "id": 160,
+    "plWord": "Jabłko",
+    "ruWord": "Яблоко",
+    "ruWrongWord": "Груша"
+  },
+  {
+    "id": 161,
+    "plWord": "Gruszka",
+    "ruWord": "Груша",
+    "ruWrongWord": "Яблоко"
+  },
+  {
+    "id": 162,
+    "plWord": "Pomidor",
+    "ruWord": "Помидор",
+    "ruWrongWord": "Огурец"
+  },
+  {
+    "id": 163,
+    "plWord": "Woda",
+    "ruWord": "Вода",
+    "ruWrongWord": "Водка"
+  },
+  {
+    "id": 164,
+    "plWord": "Wódka",
+    "ruWord": "Водка",
+    "ruWrongWord": "Вода"
+  },
+  {
+    "id": 165,
+    "plWord": "Morela",
+    "ruWord": "Абрикос",
+    "ruWrongWord": "Мандарин"
+  },
+  {
+    "id": 166,
+    "plWord": "Mandarynka",
+    "ruWord": "Мандарин",
+    "ruWrongWord": "Абрикос"
+  },
+  {
+    "id": 167,
+    "plWord": "Sok",
+    "ruWord": "Сок",
+    "ruWrongWord": "Компот"
+  },
+  {
+    "id": 168,
+    "plWord": "Kompot",
+    "ruWord": "Компот",
+    "ruWrongWord": "Сок"
+  },
+  {
+    "id": 169,
+    "plWord": "Soda",
+    "ruWord": "Газировка",
+    "ruWrongWord": "Лимонад"
+  },
+  {
+    "id": 170,
+    "plWord": "Lemoniada",
+    "ruWord": "Лимонад",
+    "ruWrongWord": "Газировка"
+  },
+  {
+    "id": 171,
+    "plWord": "Zupa",
+    "ruWord": "Суп",
+    "ruWrongWord": "Каша"
+  },
+  {
+    "id": 172,
+    "plWord": "Herbata",
+    "ruWord": "Чай",
+    "ruWrongWord": "Кофе"
+  },
+  {
+    "id": 173,
+    "plWord": "Kawa",
+    "ruWord": "Кофе",
+    "ruWrongWord": "Чай"
+  },
+  {
+    "id": 174,
+    "plWord": "Makaron",
+    "ruWord": "Лапша",
+    "ruWrongWord": "Шоколад"
+  },
+  {
+    "id": 175,
+    "plWord": "Wołowina",
+    "ruWord": "Говядина",
+    "ruWrongWord": "Свинина"
+  },
+  {
+    "id": 176,
+    "plWord": "Wieprzowina",
+    "ruWord": "Свинина",
+    "ruWrongWord": "Говядина"
+  },
+  {
+    "id": 177,
+    "plWord": "Jabłko",
+    "ruWord": "Яблоко",
+    "ruWrongWord": "Виноград"
+  },
+  {
+    "id": 178,
+    "plWord": "Winogrono",
+    "ruWord": "Виноград",
+    "ruWrongWord": "Вино"
+  },
+  {
+    "id": 179,
+    "plWord": "Kurczak",
+    "ruWord": "Курица",
+    "ruWrongWord": "Рыба"
+  },
+  {
+    "id": 180,
+    "plWord": "Ryba",
+    "ruWord": "Рыба",
+    "ruWrongWord": "Птица"
+  },
+  {
+    "id": 181,
+    "plWord": "Cytrynowy",
+    "ruWord": "Лимон",
+    "ruWrongWord": "Лимонад"
+  },
+  {
+    "id": 182,
+    "plWord": "Słodycz",
+    "ruWord": "Сладость",
+    "ruWrongWord": "Мороженое"
+  },
+  {
+    "id": 183,
+    "plWord": "Lody",
+    "ruWord": "Мороженое",
+    "ruWrongWord": "Смородина"
+  },
+  {
+    "id": 184,
+    "plWord": "Jajko",
+    "ruWord": "Яйцо",
+    "ruWrongWord": "Орех"
+  },
+  {
+    "id": 185,
+    "plWord": "Orzech",
+    "ruWord": "Орех",
+    "ruWrongWord": "Яйцо"
+  },
+  {
+    "id": 186,
+    "plWord": "Puchar",
+    "ruWord": "Чашка",
+    "ruWrongWord": "Стакан"
+  },
+  {
+    "id": 187,
+    "plWord": "Filiżanka",
+    "ruWord": "Стакан",
+    "ruWrongWord": "Чашка"
+  },
+  {
+    "id": 188,
+    "plWord": "Talerz",
+    "ruWord": "Тарелка",
+    "ruWrongWord": "Ведро"
+  },
+  {
+    "id": 189,
+    "plWord": "Widelec",
+    "ruWord": "Вилка",
+    "ruWrongWord": "Ложка"
+  },
+  {
+    "id": 190,
+    "plWord": "Łyżka",
+    "ruWord": "Ложка",
+    "ruWrongWord": "Вилка"
+  },
+  {
+    "id": 191,
+    "plWord": "Nóż",
+    "ruWord": "Нож",
+    "ruWrongWord": "Ножницы"
+  },
+  {
+    "id": 192,
+    "plWord": "Nożyce",
+    "ruWord": "Ножницы",
+    "ruWrongWord": "Нож"
+  },
+  {
+    "id": 193,
+    "plWord": "Spodek",
+    "ruWord": "Блюдце",
+    "ruWrongWord": "Бутылка"
+  },
+  {
+    "id": 194,
+    "plWord": "Butelka",
+    "ruWord": "Бутылка",
+    "ruWrongWord": "Блюдце"
+  },
+  {
+    "id": 195,
+    "plWord": "Śniadanie",
+    "ruWord": "Завтрак",
+    "ruWrongWord": "Сметана"
+  },
+  {
+    "id": 196,
+    "plWord": "Obiad",
+    "ruWord": "Ужин",
+    "ruWrongWord": "Вечер"
+  },
+  {
+    "id": 197,
+    "plWord": "Obiad",
+    "ruWord": "Обед",
+    "ruWrongWord": "Полдник"
+  },
+  {
+    "id": 198,
+    "plWord": "Czas",
+    "ruWord": "Время",
+    "ruWrongWord": "Час"
+  },
+  {
+    "id": 199,
+    "plWord": "Rok",
+    "ruWord": "Год",
+    "ruWrongWord": "Судьба"
+  },
+  {
+    "id": 200,
+    "plWord": "Miesiąc",
+    "ruWord": "Месяц",
+    "ruWrongWord": "Луна"
   }
-}
+]
