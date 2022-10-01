@@ -10,10 +10,8 @@ import android.net.Uri
 import android.view.View
 import android.widget.ImageView
 import com.example.polish_language.R
-import com.example.polish_language.staticActions.restartStatistic
-import com.example.polish_language.staticActions.setBarOfProgress
-import com.example.polish_language.staticActions.setTextOfProgress
-import com.example.polish_language.staticActions.showToastRestartStatistic
+import com.example.polish_language.serverWorker.DownloadDictionaryFromServer
+import com.example.polish_language.staticActions.*
 
 // Инизиализация окна с "Настройки":
 @SuppressLint("StaticFieldLeak")
@@ -86,6 +84,7 @@ private fun restartGame() {
 
 // Запрос новых заданий для игр:
 private fun getData() {
-    println("---> Pushed Button: Get Data <---")
+    DownloadDictionaryFromServer().downloadDictionary(context)
+    dialogSettings.dismiss()
 }
 

@@ -1,5 +1,6 @@
 package com.example.polish_language
 
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.widget.*
@@ -8,7 +9,7 @@ import com.example.polish_language.cardWorker.CardChanger
 import com.example.polish_language.cardWorker.createNewGame
 import com.example.polish_language.cardWorker.initCardDescriptionObjects
 import com.example.polish_language.cardWorker.initCardGameObjects
-import com.example.polish_language.gameWorker.*
+import com.example.polish_language.serverWorker.SaveAndReadDictionaryStorage
 import com.example.polish_language.staticActions.*
 import com.example.polish_language.tabsWorker.*
 
@@ -32,14 +33,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        rootStringJSON = readText(this) // Запись словаря в переменную
+        rootStringJSON = getDictionary(this) // Запись словаря в переменную
 
         initObjects() // Инициализация всех объектов на данной активности
         initDialogs() // Инициализация всех окон
         initCardChanger() // Инициализация объекта смены каточек
         initCardDescriptionObjects(lDescription)
         initCardGameObjects(lGame, rootStringJSON, this, cardChanger)
-        initProgress(lProgress, this)
+        initProgress(lProgress, this, rootStringJSON)
     }
 
     override fun onStart() {
@@ -113,5 +114,13 @@ class MainActivity : AppCompatActivity() {
     private fun firstStartGame() {
         createNewGame()
         cardChanger.startChanger()
+    }
+
+    // Метод получения словаря из ресурсов или памяти устройства:
+    fun getDictionary(context: Context): String {
+        val saveReadDictionary = SaveAndReadDictionaryStorage()
+        return if (saveReadDictionary.isFilePresent(context))
+            saveReadDictionary.readDictionaryFromStorage(context)
+        else saveReadDictionary.readDictionaryFromRes(context)
     }
 }

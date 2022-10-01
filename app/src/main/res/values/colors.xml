@@ -14,11 +14,12 @@
     <!-- -->
 
     <!-- Toasts -->
-    <color name="goodAnswer">#66BB6A</color>
+    <color name="correctAnswer">#66BB6A</color>
     <color name="wrongAnswer">#E48B8B</color>
     <color name="restartStatistic">#FFCA28</color>
     <color name="getReward">#29B6F6</color>
-    <color name="error">#D32F2F</color>
+    <color name="error">#F44336</color>
+    <color name="successfulServer">#66BB6A</color>
     <!-- -->
 
 </resources>

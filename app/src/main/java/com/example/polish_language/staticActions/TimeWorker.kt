@@ -16,7 +16,6 @@ private var mTimeLeftInMillis: Long = 86400000
 private var mTimerRunning = false
 private var mEndTime: Long = 0
 
-
 fun startTimer(context: Context) {
 
     mEndTime = System.currentTimeMillis() + mTimeLeftInMillis
