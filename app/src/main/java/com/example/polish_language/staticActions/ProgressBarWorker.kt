@@ -30,43 +30,47 @@ private const val lastGamesCount = 80
 private var allGamesCount: Int = 0
 private var rootString: String = ""
 
-fun initProgress(mainLayout: RelativeLayout, mainContext: Context, rootStringJSON: String) {
-    layout = mainLayout
-    context = mainContext
-    rootString = rootStringJSON
-    allGamesCount = JSONArray(rootString).length()
-    textAllGames = layout.findViewById(R.id.text_decided_questions)
-    textLastGames = layout.findViewById(R.id.text_last_questions)
-    progressAllGames = layout.findViewById(R.id.progressBar_decided_questions)
-    progressAllGames.max = allGamesCount
-    progressLastGames = layout.findViewById(R.id.progressBar_last_questions)
-    progressLastGames.max = lastGamesCount
+class ProgressBarWorker {
+    fun initProgress(mainContext: Context, mainLayout: RelativeLayout, rootStringJSON: String) {
+        layout = mainLayout
+        context = mainContext
+        rootString = rootStringJSON
+        allGamesCount = JSONArray(rootString).length()
+        textAllGames = layout.findViewById(R.id.text_decided_questions)
+        textLastGames = layout.findViewById(R.id.text_last_questions)
+        progressAllGames = layout.findViewById(R.id.progressBar_decided_questions)
+        progressAllGames.max = allGamesCount
+        progressLastGames = layout.findViewById(R.id.progressBar_last_questions)
+        progressLastGames.max = lastGamesCount
 
-    setTextOfProgress()
-    setBarOfProgress()
+        setTextOfProgress()
+        setBarOfProgress()
+    }
+
+    fun setTextOfProgress() {
+        val allGames =
+            "${StatisticWorker().getCorrectAnswersFromStatistic(context)}/${JSONArray(rootString).length()}"
+        val lastGames = "${StatisticWorker().getLastGamesFromStatistic(context)}/$lastGamesCount"
+
+        textAllGames.text = allGames
+        textLastGames.text = lastGames
+    }
+
+    fun setBarOfProgress() {
+        val allGames = StatisticWorker().getCorrectAnswersFromStatistic(context)
+        val lastGames = 80 - StatisticWorker().getLastGamesFromStatistic(context)
+
+        progressAllGames.progress = allGames
+        progressLastGames.progress = lastGames
+    }
+
+    fun setOfProgressAfterUpdate(mainContext: Context) {
+        val newDictionary = MainActivity().getDictionary(mainContext)
+
+        val allGames =
+            "${StatisticWorker().getCorrectAnswersFromStatistic(context)}/${JSONArray(newDictionary).length()}"
+        textAllGames.text = allGames
+        progressAllGames.max = JSONArray(newDictionary).length()
+    }
 }
 
-fun setTextOfProgress() {
-    val allGames = "${getCorrectAnswersFromStatistic(context)}/${JSONArray(rootString).length()}"
-    val lastGames = "${getLastGamesFromStatistic(context)}/$lastGamesCount"
-
-    textAllGames.text = allGames
-    textLastGames.text = lastGames
-}
-
-fun setBarOfProgress() {
-    val allGames = getCorrectAnswersFromStatistic(context)
-    val lastGames = 80 - getLastGamesFromStatistic(context)
-
-    progressAllGames.progress = allGames
-    progressLastGames.progress = lastGames
-}
-
-
-fun setOfProgressAfterUpdate(mainContext: Context) {
-    val newDictionary = MainActivity().getDictionary(mainContext)
-
-    val allGames = "${getCorrectAnswersFromStatistic(context)}/${JSONArray(newDictionary).length()}"
-    textAllGames.text = allGames
-    progressAllGames.max = JSONArray(newDictionary).length()
-}

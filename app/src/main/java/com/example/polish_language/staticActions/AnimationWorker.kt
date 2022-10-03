@@ -1,14 +1,11 @@
 package com.example.polish_language.staticActions
 
-import android.annotation.SuppressLint
 import android.graphics.drawable.AnimationDrawable
-import android.view.LayoutInflater
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import com.example.polish_language.R
 
 fun ImageButton.startAnimationButton() {

@@ -40,17 +40,17 @@ class MainActivity : AppCompatActivity() {
         initCardChanger() // Инициализация объекта смены каточек
         initCardDescriptionObjects(lDescription)
         initCardGameObjects(lGame, rootStringJSON, this, cardChanger)
-        initProgress(lProgress, this, rootStringJSON)
+        ProgressBarWorker().initProgress(this, lProgress, rootStringJSON)
     }
 
     override fun onStart() {
         super.onStart()
-        getTimerPreferences(this)
+        TimeWorker().getTimerPreferences(this)
     }
 
     override fun onStop() {
         super.onStop()
-        setTimerPreferences(this)
+        TimeWorker().setTimerPreferences(this)
     }
 
     // Обработка нажатий на кнопки навигации:
@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
         initDialogStatistic(this) // Окно "Статистика"
         initDialogShop(this) // Окно "Магазин"
         initDialogGameOver(this) // Окно "Конец Игры"
-        initToast(this) // Инициализация "Пояснения"
+        ToastWorker().initToast(this) // Инициализация "Пояснения"
     }
 
     // Инициализация объекта смены карт:

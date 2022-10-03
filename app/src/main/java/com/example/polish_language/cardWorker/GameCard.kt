@@ -8,8 +8,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.example.polish_language.R
-import com.example.polish_language.gameWorker.addWordOnScreen
-import com.example.polish_language.gameWorker.checkIsCorrectAns
+import com.example.polish_language.gameWorker.GameLogic
 import com.example.polish_language.staticActions.*
 import com.example.polish_language.tabsWorker.showGameOver
 
@@ -82,21 +81,21 @@ fun initCardGameObjects(
 // Обработчик нажатий на кнопки "Да" и "Нет":
 private fun createListener(): View.OnClickListener = View.OnClickListener { view ->
     when (view) {
-        buttonYes -> checkIsCorrectAns(true)
-        buttonNo -> checkIsCorrectAns(false)
+        buttonYes -> GameLogic().checkIsCorrectAns(true)
+        buttonNo -> GameLogic().checkIsCorrectAns(false)
     }
 }
 
 // Получение нового уровня для игры:
 fun createNewGame() {
-    val lastGames = getLastGamesFromStatistic(context)
-    setTextOfProgress()
-    setBarOfProgress()
+    val lastGames = StatisticWorker().getLastGamesFromStatistic(context)
+    ProgressBarWorker().setTextOfProgress()
+    ProgressBarWorker().setBarOfProgress()
 
     if (lastGames == 0) {
         showGameOver()
         cardChanger.startChanger()
-    } else addWordOnScreen(rootJSON, textPlWord, textRuWord, context)
+    } else GameLogic().addWordOnScreen(rootJSON, textPlWord, textRuWord, context)
 }
 
 // Отрисовка смайликов взависимости от ответа:

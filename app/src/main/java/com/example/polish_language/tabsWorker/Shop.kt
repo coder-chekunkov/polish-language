@@ -9,10 +9,9 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.polish_language.R
-import com.example.polish_language.staticActions.addRewardGames
-import com.example.polish_language.staticActions.setBarOfProgress
-import com.example.polish_language.staticActions.setTextOfProgress
-import com.example.polish_language.staticActions.showToastGetReward
+import com.example.polish_language.staticActions.ProgressBarWorker
+import com.example.polish_language.staticActions.StatisticWorker
+import com.example.polish_language.staticActions.ToastWorker
 
 // Инизиализация окна с "Магазин":
 @SuppressLint("StaticFieldLeak")
@@ -60,10 +59,10 @@ private fun createListener(): View.OnClickListener = View.OnClickListener { view
 
 // Запуск рекламы для получения новых игр:
 private fun getRewards() {
-    addRewardGames(context)
-    showToastGetReward()
+    StatisticWorker().addRewardGames(context)
+    ToastWorker().showToastGetReward()
     dialogShop.dismiss()
 
-    setTextOfProgress()
-    setBarOfProgress()
+    ProgressBarWorker().setTextOfProgress()
+    ProgressBarWorker().setBarOfProgress()
 }

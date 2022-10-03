@@ -3,8 +3,8 @@ package com.example.polish_language.serverWorker
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
 import com.example.polish_language.R
-import com.example.polish_language.staticActions.setOfProgressAfterUpdate
-import com.example.polish_language.staticActions.showToastServer
+import com.example.polish_language.staticActions.ProgressBarWorker
+import com.example.polish_language.staticActions.ToastWorker
 import com.google.gson.Gson
 import java.io.BufferedReader
 import java.io.File
@@ -24,8 +24,8 @@ class SaveAndReadDictionaryStorage {
         writer.write(data.toByteArray())
         writer.close()
 
-        setOfProgressAfterUpdate(context) // Обновление шкал с прогрессом
-        showToastServer(true)
+        ProgressBarWorker().setOfProgressAfterUpdate(context) // Обновление шкал с прогрессом
+        ToastWorker().showToastServer(true)
     }
 
     // Метод проверки на существования словаря с сервера в памяти устройства:

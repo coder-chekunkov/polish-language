@@ -1,12 +1,12 @@
 package com.example.polish_language.serverWorker;
 
-import static com.example.polish_language.staticActions.ToastWorkerKt.showToastServer;
-
 import android.content.Context;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 
+
+import com.example.polish_language.staticActions.ToastWorker;
 
 import java.util.List;
 
@@ -43,7 +43,7 @@ public class DownloadDictionaryFromServer {
                     } else {
                         // Произошла ошибка:
                         Log.d(TAG, response.message());
-                        showToastServer(false);
+                        new ToastWorker().showToastServer(false);
                     }
                 }
 
@@ -51,7 +51,7 @@ public class DownloadDictionaryFromServer {
                 public void onFailure(@NonNull Call<List<ServerWord>> call, @NonNull Throwable t) {
                     // Произошла ошибка:
                     Log.d(TAG, t.getMessage());
-                    showToastServer(false);
+                    new ToastWorker().showToastServer(false);
                 }
             });
         }

@@ -9,7 +9,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.polish_language.R
-import com.example.polish_language.staticActions.getStatistic
+import com.example.polish_language.staticActions.StatisticWorker
 
 // Инизиализация окна с "Статистика":
 @SuppressLint("StaticFieldLeak")
@@ -61,7 +61,7 @@ private fun createListener(): View.OnClickListener = View.OnClickListener { view
 
 // Вывод статистики:
 private fun showDataStatistic() {
-    val dataStatistic = getStatistic(context)
+    val dataStatistic = StatisticWorker().getStatistic(context)
 
     val correctAnswers = dataStatistic.correctAnswers
     val wrongAnswers = dataStatistic.wrongAnswers

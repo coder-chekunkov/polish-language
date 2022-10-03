@@ -74,12 +74,12 @@ private fun setReview() {
 
 // Обнуление результата правильно выполненых заданий:
 private fun restartGame() {
-    restartStatistic(context)
-    showToastRestartStatistic()
+    StatisticWorker().restartStatistic(context)
+    ToastWorker().showToastRestartStatistic()
     dialogSettings.dismiss()
 
-    setTextOfProgress()
-    setBarOfProgress()
+    ProgressBarWorker().setTextOfProgress()
+    ProgressBarWorker().setBarOfProgress()
 }
 
 // Запрос новых заданий для игр:

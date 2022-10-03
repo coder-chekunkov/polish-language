@@ -13,76 +13,94 @@ import com.example.polish_language.R
 @SuppressLint("StaticFieldLeak")
 private lateinit var context: Context
 
-// Инициализация контекста для окна с пояснением:
-fun initToast(mainContext: Context) {
-    context = mainContext
-}
+class ToastWorker {
 
-// Вывод сообщения с пояснением:
-@SuppressLint("InflateParams")
-fun showToastExplanation(message: String, correct: Boolean) {
-    val view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null)
-    val cardView: CardView = view.findViewById(R.id.toastCard)
-    val tvMessage: TextView = view.findViewById(R.id.tvMessage)
-    val tvImage: ImageView = view.findViewById(R.id.tvImage)
-
-    if (correct) {
-        cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.correctAnswer))
-        tvImage.setImageResource(R.drawable.good_smile_toast)
-    } else {
-        cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.wrongAnswer))
-        tvImage.setImageResource(R.drawable.wrong_smile_toast)
+    // Инициализация контекста для окна с пояснением:
+    fun initToast(mainContext: Context) {
+        context = mainContext
     }
-    tvMessage.text = message
 
-    val toastExplanation = Toast(context)
-    toastExplanation.view = view
-    toastExplanation.show()
-}
+    // Вывод сообщения с пояснением:
+    @SuppressLint("InflateParams")
+    fun showToastExplanation(message: String, correct: Boolean) {
+        val view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null)
+        val cardView: CardView = view.findViewById(R.id.toastCard)
+        val tvMessage: TextView = view.findViewById(R.id.tvMessage)
+        val tvImage: ImageView = view.findViewById(R.id.tvImage)
 
-// Вывод сообщения о сбросе статистики:
-@SuppressLint("InflateParams")
-fun showToastRestartStatistic() {
-    val view = LayoutInflater.from(context).inflate(R.layout.toast_statistic, null)
-    val tvMessage: TextView = view.findViewById(R.id.tvMessage)
-    tvMessage.text = "Статистика обновлена!"
+        if (correct) {
+            cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.correctAnswer))
+            tvImage.setImageResource(R.drawable.good_smile_toast)
+        } else {
+            cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.wrongAnswer))
+            tvImage.setImageResource(R.drawable.wrong_smile_toast)
+        }
+        tvMessage.text = message
 
-    val toastRestartStatistic = Toast(context)
-    toastRestartStatistic.view = view
-    toastRestartStatistic.show()
-}
+        val toastExplanation = Toast(context)
+        toastExplanation.view = view
+        toastExplanation.show()
+    }
 
-// Вывод сообщения о получении дополнительных игр:
-@SuppressLint("InflateParams")
-fun showToastGetReward() {
-    val view = LayoutInflater.from(context).inflate(R.layout.toast_error, null)
-    val tvMessage: TextView = view.findViewById(R.id.tvMessage)
-    tvMessage.text = "Реклама недоступна! Получены дополнительные игры!"
+    // Вывод сообщения о сбросе статистики:
+    @SuppressLint("InflateParams")
+    fun showToastRestartStatistic() {
+        val view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null)
+        val cardView: CardView = view.findViewById(R.id.toastCard)
+        val tvMessage: TextView = view.findViewById(R.id.tvMessage)
+        val tvImage: ImageView = view.findViewById(R.id.tvImage)
 
-    val toastGetReward = Toast(context)
-    toastGetReward.view = view
-    toastGetReward.show()
-}
+        cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.restartStatistic))
+        tvImage.setImageResource(R.drawable.toast_icon_restart_statistic)
+        tvMessage.text = "Статистика обновлена!"
 
-@SuppressLint("InflateParams")
-// Вывод сообщения о успешном/ошибке получении новых заданий:
-fun showToastServer(result: Boolean) {
-    val view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null)
-    val cardView: CardView = view.findViewById(R.id.toastCard)
-    val tvMessage: TextView = view.findViewById(R.id.tvMessage)
-    val tvImage: ImageView = view.findViewById(R.id.tvImage)
+        val toastGetReward = Toast(context)
+        toastGetReward.view = view
+        toastGetReward.show()
+    }
 
-    if (result) {
-        cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.successfulServer))
-        tvImage.setImageResource(R.drawable.toast_icon_server)
-        tvMessage.text = "Новые задания успешно получены!"
-    } else {
+    // Вывод сообщения о получении дополнительных игр:
+    @SuppressLint("InflateParams")
+    fun showToastGetReward() {
+        val view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null)
+        val cardView: CardView = view.findViewById(R.id.toastCard)
+        val tvMessage: TextView = view.findViewById(R.id.tvMessage)
+        val tvImage: ImageView = view.findViewById(R.id.tvImage)
+
         cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.error))
-        tvImage.setImageResource(R.drawable.toast_icon_server)
-        tvMessage.text = "Ошибка! Сервер недоступен!"
+        tvImage.setImageResource(R.drawable.icon_cross)
+        tvMessage.text = "Реклама недоступна! Получены дополнительные игры!"
+
+        val toastGetReward = Toast(context)
+        toastGetReward.view = view
+        toastGetReward.show()
     }
 
-    val toastServer = Toast(context)
-    toastServer.view = view
-    toastServer.show()
+    @SuppressLint("InflateParams")
+// Вывод сообщения о успешном/ошибке получении новых заданий:
+    fun showToastServer(result: Boolean) {
+        val view = LayoutInflater.from(context).inflate(R.layout.custom_toast, null)
+        val cardView: CardView = view.findViewById(R.id.toastCard)
+        val tvMessage: TextView = view.findViewById(R.id.tvMessage)
+        val tvImage: ImageView = view.findViewById(R.id.tvImage)
+
+        if (result) {
+            cardView.setCardBackgroundColor(
+                ContextCompat.getColor(
+                    context,
+                    R.color.successfulServer
+                )
+            )
+            tvImage.setImageResource(R.drawable.toast_icon_server)
+            tvMessage.text = "Новые задания успешно получены!"
+        } else {
+            cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.error))
+            tvImage.setImageResource(R.drawable.toast_icon_server)
+            tvMessage.text = "Ошибка! Сервер недоступен!"
+        }
+
+        val toastServer = Toast(context)
+        toastServer.view = view
+        toastServer.show()
+    }
 }
